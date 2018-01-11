@@ -1,0 +1,2107 @@
+{
+	"folder_history":
+	[
+		"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver",
+		"/home/mavr/Code/go/src/github.com/armor5games/goarmor",
+		"/home/mavr/Code/go/src/bitbucket.org/gamesrock/game_server",
+		"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat",
+		"/home/mavr/Code/go/src/bitbucket.org/hungrymavr/chat",
+		"/source/go/src/bitbacket.org/gamesrock/game_server",
+		"/source/go/src/bitbacket.org/gamesrock/game_server/auth",
+		"/source/go/src/github.com/golang-samples/websocket/websocket-chat",
+		"/source/go/src/bitbacket.org/gamesrock/firechat",
+		"/source/go/src/github.com/golang-samples",
+		"/source/go/src/bitbacket.org/gamesrock/api-golang-jwt",
+		"/media/mavr/go/src/bitbucket.org/amor5games/ropserver",
+		"/media/mavr/go/src/github.com/armor5games/goarmor",
+		"/media/mavr/go/src/gitlab.com/armor5games/bhgserver",
+		"/source/go/src/bitbacket.org/gamesrock",
+		"/source/www/dropcard-website",
+		"/source/go/src/github.com/mavr/demoapi",
+		"/source/go/src/github.com/mavr/demoserver",
+		"/source/go/src/github.com/mavr/demo-server",
+		"/media/mavr/dropcard",
+		"/home/mavr/go/src/gitlab.com/armor5games/bhgserver",
+		"/home/mavr/go/src/github.com/armor5games/goarmor/goarmorapi",
+		"/home/mavr/go/src/gitlab.com/armor5games/bhgdeploy",
+		"/home/mavr/go/src/github.com/armor5games/goarmor",
+		"/home/mavr/go/src/bitbucket.org/amor5games/ropserver",
+		"/home/mavr/dc/dropcard-website",
+		"/home/mavr/a5g/bhg",
+		"/home/mavr/a5g/gribi",
+		"/home/mavr/go/src/gitlab.com/armor5games/gribiserver",
+		"/home/mavr/go/src/gitlab.com/armor5games"
+	],
+	"last_version": 3143,
+	"last_window_id": 79,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1042.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"con",
+						"configPath\t*string ν"
+					],
+					[
+						"P",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"Pri",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"Con",
+						"ConfigLog\tstruct ʈ"
+					],
+					[
+						"Print",
+						"Printf\t ƒ"
+					],
+					[
+						"vadim",
+						"vadim_cli\t*ClientDBG ν"
+					],
+					[
+						"mess",
+						"message-area"
+					],
+					[
+						"ms",
+						"msgObj"
+					],
+					[
+						"conta",
+						"contact"
+					],
+					[
+						"D",
+						"Desctination\tstring ν"
+					],
+					[
+						"mr",
+						"mrmavr_cli\t*ClientDBG ν"
+					],
+					[
+						"anon",
+						"anon_cli\t*ClientDBG ν"
+					],
+					[
+						"req",
+						"RequestServer\tstruct ʈ"
+					],
+					[
+						"Req",
+						"RequestServer\tstruct ʈ"
+					],
+					[
+						"Re",
+						"Request\tstruct ʈ"
+					],
+					[
+						"re",
+						"RequestReceiveMessage\t ƒ"
+					],
+					[
+						"RE",
+						"RequestTypeRECEIVEMSG\t ν"
+					],
+					[
+						"Cli",
+						"Client\tstruct ʈ"
+					],
+					[
+						"va",
+						"vadim_cli\t*ClientDBG ν"
+					],
+					[
+						"vadi",
+						"vadim_cli\t*ClientDBG ν"
+					],
+					[
+						"Prin",
+						"Println\tn int, err error ƒ"
+					],
+					[
+						"w",
+						"ws\t*websocket.Conn ν"
+					],
+					[
+						"Request",
+						"func (*RequestSendMessage)\tfunc (...) {...} ʂ"
+					],
+					[
+						"get",
+						"getElementById"
+					],
+					[
+						"pay",
+						"payload"
+					],
+					[
+						"text",
+						"text-message"
+					],
+					[
+						"load",
+						"load_contacts"
+					],
+					[
+						"R",
+						"RequestTypeSENDMSG\t ν"
+					],
+					[
+						"REQ",
+						"RequestTypeGETContacts\t ν"
+					],
+					[
+						"co",
+						"console"
+					],
+					[
+						"lis",
+						"list-group"
+					],
+					[
+						"list",
+						"list-group-item"
+					],
+					[
+						"lo",
+						"log"
+					],
+					[
+						"send",
+						"send_message"
+					],
+					[
+						"st",
+						"strconv\t package ρ"
+					],
+					[
+						"C",
+						"Contact\tstruct ʈ"
+					],
+					[
+						"COn",
+						"contacts\t[]string ν"
+					],
+					[
+						"ma",
+						"mrmavr_cli\t*ClientDBG ν"
+					],
+					[
+						"na",
+						"naya_cli\t*ClientDBG ν"
+					],
+					[
+						"Pr",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"db",
+						"_debug_clients\tmap[string]*ClientDBG ν"
+					],
+					[
+						"so",
+						"socket"
+					],
+					[
+						"soc",
+						"socket_create"
+					],
+					[
+						"S",
+						"Sleep\t ƒ"
+					],
+					[
+						"Co",
+						"Conn\tstruct ʈ"
+					],
+					[
+						"func",
+						"func (*Client)\tfunc (...) {...} ʂ"
+					],
+					[
+						"rat",
+						"ratingList\t[4]RatingList ν"
+					],
+					[
+						"Ra",
+						"RatingList\tstruct ʈ"
+					],
+					[
+						"ra",
+						"ratingList\t[4]struct ν"
+					],
+					[
+						"c",
+						"claims\t ν"
+					],
+					[
+						"ct",
+						"ctx\tcontext.Context ν"
+					],
+					[
+						"Ty",
+						"TypeOf\treflect.Type ƒ"
+					],
+					[
+						"T",
+						"TypeOf\treflect.Type ƒ"
+					],
+					[
+						"Find",
+						"FindId\t*mgo.Query ƒ"
+					],
+					[
+						"Upsert",
+						"UpsertId\tinfo *mgo.ChangeInfo, err error ƒ"
+					],
+					[
+						"O",
+						"ObjectId\tstring ʈ"
+					],
+					[
+						"app",
+						"appConfig\t*goarmorconfigs.Config ν"
+					],
+					[
+						"U",
+						"URL\t*url.URL ν"
+					],
+					[
+						"u",
+						"RequestURI\tstring ν"
+					],
+					[
+						"Pi",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"Unm",
+						"UnmarshalJSON\terror ƒ"
+					],
+					[
+						"ctx",
+						"ctxkey\t package ρ"
+					],
+					[
+						"W",
+						"WithContext\t*http.Request ƒ"
+					],
+					[
+						"tok",
+						"tokenString\tstring ν"
+					],
+					[
+						"Va",
+						"Val2\tstring ν"
+					],
+					[
+						"Info",
+						"Infoln\t ƒ"
+					],
+					[
+						"b",
+						"backgroundSelected\tmethod"
+					],
+					[
+						"he",
+						"height\tAttr"
+					],
+					[
+						"di",
+						"div\tTag"
+					],
+					[
+						"e",
+						"getUser\t*bhgmodels.User ƒ"
+					],
+					[
+						"bhg",
+						"bhghandlerslogin\t package ρ"
+					],
+					[
+						"bhghan",
+						"bhghandlerslogin\t package ρ"
+					],
+					[
+						"user",
+						"userID\tint64 ν"
+					],
+					[
+						"use",
+						"userID\tint64 ν"
+					],
+					[
+						"pus",
+						"PurchaseToken\tstring ν"
+					],
+					[
+						"s",
+						"signature\tstring ν"
+					],
+					[
+						"an",
+						"ansible"
+					],
+					[
+						"dep",
+						"deployPrepareLogin"
+					],
+					[
+						"h",
+						"hello"
+					],
+					[
+						"p",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"d",
+						"decore\t[]byte ν"
+					],
+					[
+						"bghha",
+						"bhghandlersshard\t package ρ"
+					],
+					[
+						"Han",
+						"HandleFunc\t ƒ"
+					],
+					[
+						"Hand",
+						"Handler\tinterface ¡"
+					],
+					[
+						"St",
+						"StaticStorage\tstring, error ƒ"
+					],
+					[
+						"cache",
+						"cacheStatics\t*bhgcachestatics.Data ν"
+					],
+					[
+						"Cra",
+						"Crafts_payload\tstruct ʈ"
+					],
+					[
+						"UserCra",
+						"UserCraft\tstruct ʈ"
+					],
+					[
+						"New",
+						"NewDummyUserChecksum\tstring, error ƒ"
+					],
+					[
+						"jso",
+						"jsonCraft\tstruct ʈ"
+					],
+					[
+						"bhgc",
+						"bhgctx\t package ρ"
+					],
+					[
+						"JSO",
+						"JSONInternalServerError\t ƒ"
+					],
+					[
+						"us",
+						"userID"
+					],
+					[
+						"err",
+						"err"
+					],
+					[
+						"int",
+						"int64"
+					],
+					[
+						"er",
+						"err"
+					],
+					[
+						"UserC",
+						"UserCraftTableName"
+					],
+					[
+						"User",
+						"UserCraft"
+					],
+					[
+						"Eror",
+						"Error"
+					],
+					[
+						"Erro",
+						"Errorf"
+					],
+					[
+						"bh",
+						"bhgmodels"
+					],
+					[
+						"in",
+						"integer"
+					],
+					[
+						"user_c",
+						"user_craft_type"
+					],
+					[
+						"Wi",
+						"WithContext"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							""
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Install"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Cross-Compile (Interactive)"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Clean"
+						],
+						[
+							"Packages/GoSublime/GoSublime.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Golang Build/Go.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 119.0,
+				"last_filter": "vmen",
+				"selected_items":
+				[
+					[
+						"vmen",
+						"View: Toggle Menu"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"vme",
+						"View: Toggle Menu"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"vm",
+						"View: Toggle Menu"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"br",
+						"Preferences: Browse Packages"
+					],
+					[
+						"prefer",
+						"Preferences: Browse Packages"
+					],
+					[
+						"package control li",
+						"Package Control: List Packages"
+					],
+					[
+						"package\tli",
+						"Package Control: List Packages"
+					],
+					[
+						"package\tre",
+						"Package Control: Remove Package"
+					],
+					[
+						"package\tins",
+						"Package Control: List Packages"
+					],
+					[
+						"package\t",
+						"Package Control: List Packages"
+					],
+					[
+						"package",
+						"Preferences: Browse Packages"
+					],
+					[
+						"gofm",
+						"Gofmt: Format this file"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 442.0
+			},
+			"console":
+			{
+				"height": 161.0,
+				"history":
+				[
+					"goimports",
+					"goimporta",
+					";",
+					"error log",
+					"error_log",
+					"help",
+					"/help",
+					"?",
+					"pwd"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/config.toml",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/client.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/events.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/message.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/contacts.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/protocol.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/webroot/index.html",
+				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+				"/home/mavr/.config/i3/config",
+				"/home/mavr/Code/dots/.local/etc/themer/themes/space/polybar",
+				"/home/mavr/Code/go/src/sampe.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/webroot/index.html",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/message.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/protocol.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/client.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/events.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/server.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/message.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/client.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/server.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/main.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/contacts.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/webroot/js/main.js",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/webroot/js/Message.js",
+				"/home/mavr/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/room.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/server-messager.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/auth/config.ini",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/auth/auth.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/model/user.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/ctx/ctx.go",
+				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/9o.md",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/handlers/user.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/FireDogHttp/answer.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/httpAnswer/answer.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/version.go",
+				"/media/mavr/go/src/gitlab.com/armor5games/bhgserver/bhglogin/main.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/http/answer.go",
+				"/source/www/dropcard-website/src/app/services/user.service.ts",
+				"/source/www/dropcard-website/src/app/models/admin.ts",
+				"/source/www/dropcard-website/src/app/pages/company/company.component.html",
+				"/source/www/dropcard-website/src/app/dal/admin.dal.ts",
+				"/source/www/dropcard-website/src/app/pages/company/company.component.ts",
+				"/source/www/dropcard-website/src/app/dal/company.dal.ts",
+				"/source/www/dropcard-website/node_modules/admin-lte/dist/css/AdminLTE.css",
+				"/source/www/dropcard-website/node_modules/admin-lte/dist/css/skins/skin-purple.css",
+				"/source/www/dropcard-website/node_modules/admin-lte/dist/css/skins/_all-skins.css",
+				"/source/www/dropcard-website/src/app/pages/layouts/auth/auth.css",
+				"/source/www/dropcard-website/src/app/pages/layouts/auth/auth.ts",
+				"/source/www/dropcard-website/src/styles.less",
+				"/source/www/dropcard-website/src/app/pages/layouts/auth/auth.html",
+				"/source/www/dropcard-website/src/app/widgets/app-header/app-header.component.ts",
+				"/source/www/dropcard-website/src/app/pages/company/phone.component.css",
+				"/source/www/dropcard-website/src/app/widgets/app-header/app-header.component.html",
+				"/source/www/dropcard-website/src/app/widgets/control-sidebar/control-sidebar.component.html",
+				"/source/www/dropcard-website/src/app/widgets/control-sidebar/control-sidebar.component.ts",
+				"/source/www/dropcard-website/src/app/widgets/menu-aside/menu-aside.component.html",
+				"/source/www/dropcard-website/src/app/pages/login/login.component.html",
+				"/source/www/dropcard-website/src/app/widgets/user-box/user-box.component.ts",
+				"/source/www/dropcard-website/src/app/widgets/user-box/user-box.component.html",
+				"/source/go/src/github.com/mavr/demoserver/README.md",
+				"/source/go/src/github.com/mavr/demoserver/demologin/login.ini.template",
+				"/source/go/src/github.com/mavr/demoserver/demoshard/main.go",
+				"/source/go/src/github.com/mavr/demo-server/models/user_helpers.go",
+				"/source/go/src/github.com/mavr/demo-server/models/user_secret_credentials.go",
+				"/home/mavr/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+				"/source/go/src/github.com/mavr/demo-server/login/main.go",
+				"/source/go/src/github.com/mavr/demo-server/models/user_credentials.go",
+				"/source/go/src/github.com/mavr/demo-server/models/login_server.go",
+				"/source/go/src/github.com/mavr/demo-server/loginusercache/user.go",
+				"/source/go/src/github.com/mavr/demo-server/loginusercache/shard_server.go",
+				"/source/go/src/github.com/mavr/demo-server/loginusercache/cache_data.go",
+				"/source/go/src/github.com/mavr/demo-server/version/version.go",
+				"/source/go/src/github.com/mavr/demo-server/models/db.go",
+				"/source/go/src/github.com/mavr/demo-server/ctx/ctx.go",
+				"/source/go/src/github.com/mavr/demo-server/loginhandlers/user_credentials_required_mw.go",
+				"/source/go/src/github.com/mavr/demo-server/loginhandlers/sessions_create.go",
+				"/source/go/src/github.com/mavr/demo-server/bhglogin/main.go",
+				"/source/go/src/github.com/mavr/demo-server/demo-server.sublime-project",
+				"/source/go/src/github.com/mavr/demo-server/test.go",
+				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlerslogin/promo.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlerslogin/rating.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacherating/players.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_credentials.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_helpers.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/user.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhglogin/main.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhglogin/1502089318_level_minimum_1_in_rating.down.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1000000000_initial_migration.up.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhglogin/1000000000_initial_migration.up.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhglogin/1000000000_initial_migration.down.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1502120811_drop_user_rating.up.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_payload_checksum.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghttp/json.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgjob.sh",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlers/body_checksum_required_mw.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/gamer.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/gamer.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/main.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/bhgshard.ini.template",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/bhgshard.ini",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/payment.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgversion/version.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacherating/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/user.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/bhgshard.log",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/craft.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_secret.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/data.go",
+				"/home/mavr/.config/sublime-text-3/Packages/User/Colorsublime.sublime-settings",
+				"/home/mavr/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/user_access_token_required_mw.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshard/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgctx/ctx.go",
+				"/home/mavr/helpers.sh",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/google_payment.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_secret_credentials.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_dal.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/decore.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_decore.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/decore.go"
+			],
+			"find":
+			{
+				"height": 36.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"Copy"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"menu_visible": true,
+			"output.9o:///home/mavr/.config/sublime-text-3/Packages/GoSublime":
+			{
+				"height": 108.0
+			},
+			"output.9o:///source/go/src/bitbacket.org/gamesrock/game_server/auth":
+			{
+				"height": 108.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 100.0
+			},
+			"output.GoSublime-output":
+			{
+				"height": 120.0
+			},
+			"output.MarGo-output":
+			{
+				"height": 120.0
+			},
+			"output.doc":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.godoc-output":
+			{
+				"height": 102.0
+			},
+			"output.golang_build":
+			{
+				"height": 108.0
+			},
+			"output.gotools_syntax_errors":
+			{
+				"height": 108.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 108.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"goarmorapi/",
+						"goarmorapi/kv.go"
+					],
+					[
+						"server",
+						"src/messager/server.go"
+					],
+					[
+						"ser",
+						"src/messager/server.go"
+					],
+					[
+						"clie",
+						"src/messager/client.go"
+					],
+					[
+						"cli",
+						"src/messager/client.go"
+					],
+					[
+						"mess",
+						"src/messager/message.go"
+					],
+					[
+						"eve",
+						"src/messager/events.go"
+					],
+					[
+						"main",
+						"src/main.go"
+					],
+					[
+						"serv",
+						"src/messager/server.go"
+					],
+					[
+						"pro",
+						"src/messager/protocol.go"
+					],
+					[
+						"conta",
+						"src/messager/contacts.go"
+					],
+					[
+						"p",
+						"src/messager/protocol.go"
+					],
+					[
+						"inde",
+						"src/webroot/index.html"
+					],
+					[
+						"clien",
+						"src/messager/client.go"
+					],
+					[
+						"ma",
+						"src/main.go"
+					],
+					[
+						"in",
+						"src/webroot/index.html"
+					],
+					[
+						"",
+						"src/main.go"
+					],
+					[
+						"sever",
+						"src/messager/server.go"
+					],
+					[
+						"mes",
+						"src/chat/message.go"
+					],
+					[
+						"user",
+						"handler/user.go"
+					],
+					[
+						"gam",
+						"handler/game.go"
+					],
+					[
+						"ro",
+						"model/room.go"
+					],
+					[
+						"ct",
+						"ctxkey/key.go"
+					],
+					[
+						"ctx",
+						"ctxkey/key.go"
+					],
+					[
+						"c",
+						"auth/config.ini"
+					],
+					[
+						"au",
+						"/source/go/src/bitbacket.org/gamesrock/game_server/auth/auth.go"
+					],
+					[
+						"a",
+						"auth/auth.go"
+					],
+					[
+						"auth",
+						"auth/auth.go"
+					],
+					[
+						"mai",
+						"bhglogin/main.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"/source/go/src/github.com/mavr/demo-server/demo-server.sublime-workspace"
+					]
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 375.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 378.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 214.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1920.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"con",
+						"configPath\t*string ν"
+					],
+					[
+						"P",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"Pri",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"Con",
+						"ConfigLog\tstruct ʈ"
+					],
+					[
+						"Print",
+						"Printf\t ƒ"
+					],
+					[
+						"vadim",
+						"vadim_cli\t*ClientDBG ν"
+					],
+					[
+						"mess",
+						"message-area"
+					],
+					[
+						"ms",
+						"msgObj"
+					],
+					[
+						"conta",
+						"contact"
+					],
+					[
+						"D",
+						"Desctination\tstring ν"
+					],
+					[
+						"mr",
+						"mrmavr_cli\t*ClientDBG ν"
+					],
+					[
+						"anon",
+						"anon_cli\t*ClientDBG ν"
+					],
+					[
+						"req",
+						"RequestServer\tstruct ʈ"
+					],
+					[
+						"Req",
+						"RequestServer\tstruct ʈ"
+					],
+					[
+						"Re",
+						"Request\tstruct ʈ"
+					],
+					[
+						"re",
+						"RequestReceiveMessage\t ƒ"
+					],
+					[
+						"RE",
+						"RequestTypeRECEIVEMSG\t ν"
+					],
+					[
+						"Cli",
+						"Client\tstruct ʈ"
+					],
+					[
+						"va",
+						"vadim_cli\t*ClientDBG ν"
+					],
+					[
+						"vadi",
+						"vadim_cli\t*ClientDBG ν"
+					],
+					[
+						"Prin",
+						"Println\tn int, err error ƒ"
+					],
+					[
+						"w",
+						"ws\t*websocket.Conn ν"
+					],
+					[
+						"Request",
+						"func (*RequestSendMessage)\tfunc (...) {...} ʂ"
+					],
+					[
+						"get",
+						"getElementById"
+					],
+					[
+						"pay",
+						"payload"
+					],
+					[
+						"text",
+						"text-message"
+					],
+					[
+						"load",
+						"load_contacts"
+					],
+					[
+						"R",
+						"RequestTypeSENDMSG\t ν"
+					],
+					[
+						"REQ",
+						"RequestTypeGETContacts\t ν"
+					],
+					[
+						"co",
+						"console"
+					],
+					[
+						"lis",
+						"list-group"
+					],
+					[
+						"list",
+						"list-group-item"
+					],
+					[
+						"lo",
+						"log"
+					],
+					[
+						"send",
+						"send_message"
+					],
+					[
+						"st",
+						"strconv\t package ρ"
+					],
+					[
+						"C",
+						"Contact\tstruct ʈ"
+					],
+					[
+						"COn",
+						"contacts\t[]string ν"
+					],
+					[
+						"ma",
+						"mrmavr_cli\t*ClientDBG ν"
+					],
+					[
+						"na",
+						"naya_cli\t*ClientDBG ν"
+					],
+					[
+						"Pr",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"db",
+						"_debug_clients\tmap[string]*ClientDBG ν"
+					],
+					[
+						"so",
+						"socket"
+					],
+					[
+						"soc",
+						"socket_create"
+					],
+					[
+						"S",
+						"Sleep\t ƒ"
+					],
+					[
+						"Co",
+						"Conn\tstruct ʈ"
+					],
+					[
+						"func",
+						"func (*Client)\tfunc (...) {...} ʂ"
+					],
+					[
+						"rat",
+						"ratingList\t[4]RatingList ν"
+					],
+					[
+						"Ra",
+						"RatingList\tstruct ʈ"
+					],
+					[
+						"ra",
+						"ratingList\t[4]struct ν"
+					],
+					[
+						"c",
+						"claims\t ν"
+					],
+					[
+						"ct",
+						"ctx\tcontext.Context ν"
+					],
+					[
+						"Ty",
+						"TypeOf\treflect.Type ƒ"
+					],
+					[
+						"T",
+						"TypeOf\treflect.Type ƒ"
+					],
+					[
+						"Find",
+						"FindId\t*mgo.Query ƒ"
+					],
+					[
+						"Upsert",
+						"UpsertId\tinfo *mgo.ChangeInfo, err error ƒ"
+					],
+					[
+						"O",
+						"ObjectId\tstring ʈ"
+					],
+					[
+						"app",
+						"appConfig\t*goarmorconfigs.Config ν"
+					],
+					[
+						"U",
+						"URL\t*url.URL ν"
+					],
+					[
+						"u",
+						"RequestURI\tstring ν"
+					],
+					[
+						"Pi",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"Unm",
+						"UnmarshalJSON\terror ƒ"
+					],
+					[
+						"ctx",
+						"ctxkey\t package ρ"
+					],
+					[
+						"W",
+						"WithContext\t*http.Request ƒ"
+					],
+					[
+						"tok",
+						"tokenString\tstring ν"
+					],
+					[
+						"Va",
+						"Val2\tstring ν"
+					],
+					[
+						"Info",
+						"Infoln\t ƒ"
+					],
+					[
+						"b",
+						"backgroundSelected\tmethod"
+					],
+					[
+						"he",
+						"height\tAttr"
+					],
+					[
+						"di",
+						"div\tTag"
+					],
+					[
+						"e",
+						"getUser\t*bhgmodels.User ƒ"
+					],
+					[
+						"bhg",
+						"bhghandlerslogin\t package ρ"
+					],
+					[
+						"bhghan",
+						"bhghandlerslogin\t package ρ"
+					],
+					[
+						"user",
+						"userID\tint64 ν"
+					],
+					[
+						"use",
+						"userID\tint64 ν"
+					],
+					[
+						"pus",
+						"PurchaseToken\tstring ν"
+					],
+					[
+						"s",
+						"signature\tstring ν"
+					],
+					[
+						"an",
+						"ansible"
+					],
+					[
+						"dep",
+						"deployPrepareLogin"
+					],
+					[
+						"h",
+						"hello"
+					],
+					[
+						"p",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"d",
+						"decore\t[]byte ν"
+					],
+					[
+						"bghha",
+						"bhghandlersshard\t package ρ"
+					],
+					[
+						"Han",
+						"HandleFunc\t ƒ"
+					],
+					[
+						"Hand",
+						"Handler\tinterface ¡"
+					],
+					[
+						"St",
+						"StaticStorage\tstring, error ƒ"
+					],
+					[
+						"cache",
+						"cacheStatics\t*bhgcachestatics.Data ν"
+					],
+					[
+						"Cra",
+						"Crafts_payload\tstruct ʈ"
+					],
+					[
+						"UserCra",
+						"UserCraft\tstruct ʈ"
+					],
+					[
+						"New",
+						"NewDummyUserChecksum\tstring, error ƒ"
+					],
+					[
+						"jso",
+						"jsonCraft\tstruct ʈ"
+					],
+					[
+						"bhgc",
+						"bhgctx\t package ρ"
+					],
+					[
+						"JSO",
+						"JSONInternalServerError\t ƒ"
+					],
+					[
+						"us",
+						"userID"
+					],
+					[
+						"err",
+						"err"
+					],
+					[
+						"int",
+						"int64"
+					],
+					[
+						"er",
+						"err"
+					],
+					[
+						"UserC",
+						"UserCraftTableName"
+					],
+					[
+						"User",
+						"UserCraft"
+					],
+					[
+						"Eror",
+						"Error"
+					],
+					[
+						"Erro",
+						"Errorf"
+					],
+					[
+						"bh",
+						"bhgmodels"
+					],
+					[
+						"in",
+						"integer"
+					],
+					[
+						"user_c",
+						"user_craft_type"
+					],
+					[
+						"Wi",
+						"WithContext"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmorapi/kv.go",
+					"settings":
+					{
+						"buffer_size": 1219,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmor/goarmorapi/json.go",
+					"settings":
+					{
+						"buffer_size": 5113,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix",
+						"name": "Find References",
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							""
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Install"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Cross-Compile (Interactive)"
+						],
+						[
+							"Packages/Golang Build/Go.sublime-build",
+							"Clean"
+						],
+						[
+							"Packages/GoSublime/GoSublime.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Golang Build/Go.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 119.0,
+				"last_filter": "vm",
+				"selected_items":
+				[
+					[
+						"vm",
+						"View: Toggle Menu"
+					],
+					[
+						"vmen",
+						"View: Toggle Menu"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"vme",
+						"View: Toggle Menu"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"br",
+						"Preferences: Browse Packages"
+					],
+					[
+						"prefer",
+						"Preferences: Browse Packages"
+					],
+					[
+						"package control li",
+						"Package Control: List Packages"
+					],
+					[
+						"package\tli",
+						"Package Control: List Packages"
+					],
+					[
+						"package\tre",
+						"Package Control: Remove Package"
+					],
+					[
+						"package\tins",
+						"Package Control: List Packages"
+					],
+					[
+						"package\t",
+						"Package Control: List Packages"
+					],
+					[
+						"package",
+						"Preferences: Browse Packages"
+					],
+					[
+						"gofm",
+						"Gofmt: Format this file"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 442.0
+			},
+			"console":
+			{
+				"height": 161.0,
+				"history":
+				[
+					"goimports",
+					"goimporta",
+					";",
+					"error log",
+					"error_log",
+					"help",
+					"/help",
+					"?",
+					"pwd"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/mavr/Code/go/src/github.com/armor5games/goarmor",
+				"/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmor",
+				"/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmor/goarmorapi",
+				"/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmordb"
+			],
+			"file_history":
+			[
+				"/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmordb/pooler.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/config.toml",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/client.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/events.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/message.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/contacts.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/messager/protocol.go",
+				"/home/mavr/Code/go/src/bitbucket.org/gamesrock/firechat/src/webroot/index.html",
+				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+				"/home/mavr/.config/i3/config",
+				"/home/mavr/Code/dots/.local/etc/themer/themes/space/polybar",
+				"/home/mavr/Code/go/src/sampe.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/webroot/index.html",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/message.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/protocol.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/client.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/events.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/server.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/message.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/client.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/server.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/main.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/messager/contacts.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/webroot/js/main.js",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/webroot/js/Message.js",
+				"/home/mavr/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/room.go",
+				"/source/go/src/bitbacket.org/gamesrock/firechat/src/chat/server-messager.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/auth/config.ini",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/auth/auth.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/model/user.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/ctx/ctx.go",
+				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/9o.md",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/handlers/user.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/FireDogHttp/answer.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/httpAnswer/answer.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/version.go",
+				"/media/mavr/go/src/gitlab.com/armor5games/bhgserver/bhglogin/main.go",
+				"/source/go/src/bitbacket.org/gamesrock/game_server/http/answer.go",
+				"/source/www/dropcard-website/src/app/services/user.service.ts",
+				"/source/www/dropcard-website/src/app/models/admin.ts",
+				"/source/www/dropcard-website/src/app/pages/company/company.component.html",
+				"/source/www/dropcard-website/src/app/dal/admin.dal.ts",
+				"/source/www/dropcard-website/src/app/pages/company/company.component.ts",
+				"/source/www/dropcard-website/src/app/dal/company.dal.ts",
+				"/source/www/dropcard-website/node_modules/admin-lte/dist/css/AdminLTE.css",
+				"/source/www/dropcard-website/node_modules/admin-lte/dist/css/skins/skin-purple.css",
+				"/source/www/dropcard-website/node_modules/admin-lte/dist/css/skins/_all-skins.css",
+				"/source/www/dropcard-website/src/app/pages/layouts/auth/auth.css",
+				"/source/www/dropcard-website/src/app/pages/layouts/auth/auth.ts",
+				"/source/www/dropcard-website/src/styles.less",
+				"/source/www/dropcard-website/src/app/pages/layouts/auth/auth.html",
+				"/source/www/dropcard-website/src/app/widgets/app-header/app-header.component.ts",
+				"/source/www/dropcard-website/src/app/pages/company/phone.component.css",
+				"/source/www/dropcard-website/src/app/widgets/app-header/app-header.component.html",
+				"/source/www/dropcard-website/src/app/widgets/control-sidebar/control-sidebar.component.html",
+				"/source/www/dropcard-website/src/app/widgets/control-sidebar/control-sidebar.component.ts",
+				"/source/www/dropcard-website/src/app/widgets/menu-aside/menu-aside.component.html",
+				"/source/www/dropcard-website/src/app/pages/login/login.component.html",
+				"/source/www/dropcard-website/src/app/widgets/user-box/user-box.component.ts",
+				"/source/www/dropcard-website/src/app/widgets/user-box/user-box.component.html",
+				"/source/go/src/github.com/mavr/demoserver/README.md",
+				"/source/go/src/github.com/mavr/demoserver/demologin/login.ini.template",
+				"/source/go/src/github.com/mavr/demoserver/demoshard/main.go",
+				"/source/go/src/github.com/mavr/demo-server/models/user_helpers.go",
+				"/source/go/src/github.com/mavr/demo-server/models/user_secret_credentials.go",
+				"/home/mavr/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+				"/source/go/src/github.com/mavr/demo-server/login/main.go",
+				"/source/go/src/github.com/mavr/demo-server/models/user_credentials.go",
+				"/source/go/src/github.com/mavr/demo-server/models/login_server.go",
+				"/source/go/src/github.com/mavr/demo-server/loginusercache/user.go",
+				"/source/go/src/github.com/mavr/demo-server/loginusercache/shard_server.go",
+				"/source/go/src/github.com/mavr/demo-server/loginusercache/cache_data.go",
+				"/source/go/src/github.com/mavr/demo-server/version/version.go",
+				"/source/go/src/github.com/mavr/demo-server/models/db.go",
+				"/source/go/src/github.com/mavr/demo-server/ctx/ctx.go",
+				"/source/go/src/github.com/mavr/demo-server/loginhandlers/user_credentials_required_mw.go",
+				"/source/go/src/github.com/mavr/demo-server/loginhandlers/sessions_create.go",
+				"/source/go/src/github.com/mavr/demo-server/bhglogin/main.go",
+				"/source/go/src/github.com/mavr/demo-server/demo-server.sublime-project",
+				"/source/go/src/github.com/mavr/demo-server/test.go",
+				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlerslogin/promo.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlerslogin/rating.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacherating/players.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_credentials.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_helpers.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/user.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhglogin/main.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhglogin/1502089318_level_minimum_1_in_rating.down.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1000000000_initial_migration.up.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhglogin/1000000000_initial_migration.up.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhglogin/1000000000_initial_migration.down.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1502120811_drop_user_rating.up.sql",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_payload_checksum.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghttp/json.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgjob.sh",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlers/body_checksum_required_mw.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/gamer.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/gamer.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/main.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/bhgshard.ini.template",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/bhgshard.ini",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/payment.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgversion/version.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacherating/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/user.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgshard/bhgshard.log",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/craft.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_secret.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/data.go",
+				"/home/mavr/.config/sublime-text-3/Packages/User/Colorsublime.sublime-settings",
+				"/home/mavr/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/user_access_token_required_mw.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshard/cache_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgctx/ctx.go",
+				"/home/mavr/helpers.sh",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/google_payment.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_secret_credentials.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_dal.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_data.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhghandlersshard/decore.go",
+				"/home/mavr/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_decore.go"
+			],
+			"find":
+			{
+				"height": 36.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"Copy"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/mavr/Code/go/src/github.com/armor5games/goarmor"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmorapi/kv.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1219,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										365,
+										365
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/mavr/Code/go/src/github.com/armor5games/goarmor/goarmor/goarmorapi/json.go",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 5113,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.9o:///home/mavr/.config/sublime-text-3/Packages/GoSublime":
+			{
+				"height": 108.0
+			},
+			"output.9o:///source/go/src/bitbacket.org/gamesrock/game_server/auth":
+			{
+				"height": 108.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 100.0
+			},
+			"output.GoSublime-output":
+			{
+				"height": 120.0
+			},
+			"output.MarGo-output":
+			{
+				"height": 120.0
+			},
+			"output.doc":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.godoc-output":
+			{
+				"height": 102.0
+			},
+			"output.golang_build":
+			{
+				"height": 108.0
+			},
+			"output.gotools_syntax_errors":
+			{
+				"height": 108.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 108.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,20,1920,1080,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"goarmorapi/",
+						"goarmorapi/kv.go"
+					],
+					[
+						"server",
+						"src/messager/server.go"
+					],
+					[
+						"ser",
+						"src/messager/server.go"
+					],
+					[
+						"clie",
+						"src/messager/client.go"
+					],
+					[
+						"cli",
+						"src/messager/client.go"
+					],
+					[
+						"mess",
+						"src/messager/message.go"
+					],
+					[
+						"eve",
+						"src/messager/events.go"
+					],
+					[
+						"main",
+						"src/main.go"
+					],
+					[
+						"serv",
+						"src/messager/server.go"
+					],
+					[
+						"pro",
+						"src/messager/protocol.go"
+					],
+					[
+						"conta",
+						"src/messager/contacts.go"
+					],
+					[
+						"p",
+						"src/messager/protocol.go"
+					],
+					[
+						"inde",
+						"src/webroot/index.html"
+					],
+					[
+						"clien",
+						"src/messager/client.go"
+					],
+					[
+						"ma",
+						"src/main.go"
+					],
+					[
+						"in",
+						"src/webroot/index.html"
+					],
+					[
+						"",
+						"src/main.go"
+					],
+					[
+						"sever",
+						"src/messager/server.go"
+					],
+					[
+						"mes",
+						"src/chat/message.go"
+					],
+					[
+						"user",
+						"handler/user.go"
+					],
+					[
+						"gam",
+						"handler/game.go"
+					],
+					[
+						"ro",
+						"model/room.go"
+					],
+					[
+						"ct",
+						"ctxkey/key.go"
+					],
+					[
+						"ctx",
+						"ctxkey/key.go"
+					],
+					[
+						"c",
+						"auth/config.ini"
+					],
+					[
+						"au",
+						"/source/go/src/bitbacket.org/gamesrock/game_server/auth/auth.go"
+					],
+					[
+						"a",
+						"auth/auth.go"
+					],
+					[
+						"auth",
+						"auth/auth.go"
+					],
+					[
+						"mai",
+						"bhglogin/main.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"/source/go/src/github.com/mavr/demo-server/demo-server.sublime-workspace"
+					]
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 375.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 378.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 214.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 78,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/source/go/src/github.com/mavr/demo-server/demo-server.sublime-workspace"
+		]
+	}
+}

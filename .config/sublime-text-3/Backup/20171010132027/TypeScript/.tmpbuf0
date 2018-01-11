@@ -1,0 +1,174 @@
+import { Component, ViewChild, OnInit, OnDestroy } from '@angular/core';
+import { FirebaseObjectObservable } from 'angularfire2';
+import { ImageResult, ResizeOptions } from 'ng2-imageupload';
+import { Ng2ImgMaxService } from 'ng2-img-max';
+import { ImageCropperComponent, CropperSettings } from 'ng2-img-cropper';
+
+import { Company } from '../../models/company';
+import { CompanyDAL } from '../../dal/company.dal';
+import { BreadcrumbService } from '../../services/breadcrumb.service';
+import { UserService } from '../../services/user.service';
+
+@Component({
+    providers: [CompanyDAL],    
+    selector: 'app-company',
+    styleUrls: ['./company.component.css', './phone.component.css'],
+    templateUrl: './company.component.html'
+})
+
+export class CompanyComponent implements OnInit, OnDestroy {
+    @ViewChild('cropper', undefined) cropper:ImageCropperComponent;
+
+    private company: FirebaseObjectObservable<any>;
+    private _company : Company;    
+
+    
+    private logoResizeOptions: ResizeOptions = {
+        resizeMaxHeight: 300,
+        resizeMaxWidth: 300
+    };
+
+    private backgroundData: any;
+
+    private backgroundResizeOptions: ResizeOptions = {
+        resizeMaxHeight: 1500,
+        resizeMaxWidth: 500
+    };
+
+    private backgroundCropperOptions: CropperSettings;
+
+
+    constructor(private dal: CompanyDAL, private breadServ: BreadcrumbService, private ng2ImgMaxService: Ng2ImgMaxService, private userServ : UserService) { 
+        this.backgroundCropperOptions = new CropperSettings();
+        this.backgroundCropperOptions.width = 85;
+        this.backgroundCropperOptions.height = 150;
+        this.backgroundCropperOptions.croppedWidth = 255;
+        this.backgroundCropperOptions.croppedHeight = 454;
+        this.backgroundCropperOptions.canvasWidth = 800;
+        this.backgroundCropperOptions.canvasHeight = 500;
+
+        this.backgroundData = {};
+
+        this._company = userServ.getCompany()
+
+        // this.company = this.dal.get(this.userServ.getCompany());
+            
+        //     this.company.subscribe(snapshot => {
+        //         this._company = new Company(snapshot);
+        //         console.info(this._company);
+        //     })
+    }
+
+    b64toBlob(b64Data, contentType, sliceSize) {
+        contentType = contentType || '';
+        sliceSize = sliceSize || 512;
+
+        var byteCharacters = atob(b64Data);
+        var byteArrays = [];
+
+        for (var offset = 0; offset < byteCharacters.length; offset += sliceSize) {
+        var slice = byteCharacters.slice(offset, offset + sliceSize);
+
+        var byteNumbers = new Array(slice.length);
+        for (var i = 0; i < slice.length; i++) {
+          byteNumbers[i] = slice.charCodeAt(i);
+        }
+
+        var byteArray = new Uint8Array(byteNumbers);
+
+        byteArrays.push(byteArray);
+        }
+
+        var blob = new Blob(byteArrays, {type: contentType});
+        return blob;
+    }    
+
+    logoSelected(imageResult: ImageResult) {
+        this._company.logo = imageResult.resized && imageResult.resized.dataURL || imageResult.dataURL;
+
+        this.ng2ImgMaxService.resize([imageResult.file], this.logoResizeOptions.resizeMaxHeight, this.logoResizeOptions.resizeMaxWidth).subscribe((result)=>{
+            if(typeof result.name !== 'undefined' && typeof result.size !== 'undefined' && typeof result.type !== 'undefined') {
+                this.dal.uploadLogo(result);
+            } else {
+              console.error(result);
+            }
+        });        
+    }
+
+    public ngOnInit() {
+        this.breadServ.set({
+            header: 'Компания',
+            description: 'Настройки',
+            display: true,
+            levels: []
+        });        
+    
+    }
+
+    public selectLogo($event) {
+        // this._company.logo = logo.resized && logo.resized.dataURL || logo.dataURL;
+        // console.log("Try to resize");
+        // this.ng2ImgMaxService.resize([logo.file], 300, 300).subscribe((result)=>{
+        //     if(typeof result.name !== 'undefined' && typeof result.size !== 'undefined' && typeof result.type !== 'undefined') {
+        //         console.info(result);
+        //         this.dal.uploadLogo(result);
+        //     } else {
+        //       console.error(result);
+        //     }
+        // });
+    }
+
+    // public fileChangeListener($event) { }
+
+    public backgroundSelected(imageResult: ImageResult) {
+        this._company.bg = imageResult.resized && imageResult.resized.dataURL || imageResult.dataURL;
+        this.ng2ImgMaxService.resize([imageResult.file], 1500, 1000).subscribe((result)=>{
+            if(typeof result.name !== 'undefined' && typeof result.size !== 'undefined' && typeof result.type !== 'undefined') {
+                this.dal.uploadBG(result);
+            } else {
+              console.error(result);
+            }
+        });
+    }
+
+    public backgroundUpload($event) {
+        console.log("background upload");
+        
+        var image:any = new Image();
+        image.src = this.backgroundData.image;
+        var blob = this.b64toBlob(image, 'image/*', 0);
+
+        // this.backgroundSelected(blob);
+    }
+
+    public backChangerListener($event) {
+        console.log("backChangerListener");
+        var image:any = new Image();
+        var file:File = $event.target.files[0];
+        var myReader:FileReader = new FileReader();
+        var that = this;
+        myReader.onloadend = function (loadEvent:any) {
+            console.log("backChangerListener::set image");
+            image.src = loadEvent.target.result;
+            that.cropper.setImage(image);
+
+        };
+
+        myReader.readAsDataURL(file);     
+        this.dal.uploadBG(file);   
+    }
+
+    // public dbg = (): void => {
+
+    // }
+
+
+    // public save = (): void => {
+    //     this.dal.update(this._company);
+    // }
+
+    public ngOnDestroy() {
+
+    }
+
+}

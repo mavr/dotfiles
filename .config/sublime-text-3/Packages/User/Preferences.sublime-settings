@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Colorsublime - Themes/Carbonight.tmTheme",
+	"default_line_ending": "unix",
+	"font_face": "Deja Vu Sans Mono",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"theme": "Soda Dark 3.sublime-theme"
+}

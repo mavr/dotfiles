@@ -1,0 +1,402 @@
+10/15/17 01:28:26 - [main.c:186] Linux localhost 4.13.6-gentoo #1 SMP Sun Oct 15 00:09:55 MSK 2017 x86_64 AMD Phenom(tm) II X4 925 Processor AuthenticAMD GNU/Linux
+10/15/17 01:28:26 - [main.c:158] Contents of /etc/lsb-release:
+10/15/17 01:28:26 - [main.c:165] DISTRIB_ID="Gentoo"
+10/15/17 01:28:26 - [main.c:158] Contents of /etc/os-release:
+10/15/17 01:28:26 - [main.c:165] NAME=Gentoo
+10/15/17 01:28:26 - [main.c:165] ID=gentoo
+10/15/17 01:28:26 - [main.c:165] PRETTY_NAME="Gentoo/Linux"
+10/15/17 01:28:26 - [main.c:165] ANSI_COLOR="1;32"
+10/15/17 01:28:26 - [main.c:165] HOME_URL="https://www.gentoo.org/"
+10/15/17 01:28:26 - [main.c:165] SUPPORT_URL="https://www.gentoo.org/support/"
+10/15/17 01:28:26 - [main.c:165] BUG_REPORT_URL="https://bugs.gentoo.org/"
+10/15/17 01:28:26 - [main.c:158] Contents of /etc/gentoo-release:
+10/15/17 01:28:26 - [main.c:165] Gentoo Base System release 2.4.1
+10/15/17 01:28:26 - [main.c:143] PATH=/usr/x86_64-pc-linux-gnu/gcc-bin/6.4.0:/usr/lib/llvm/5/bin:/usr/local/bin:/usr/bin:/bin:/opt/bin:/opt/android-sdk-update-manager/tools:/opt/android-sdk-update-manager/platform-tools
+10/15/17 01:28:26 - [main.c:143] LD_LOAD_PATH=(null)
+10/15/17 01:28:26 - [main.c:143] LD_PRELOAD_PATH=(null)
+10/15/17 01:28:26 - [main.c:143] LD_LIBRARY_PATH=(null)
+10/15/17 01:28:26 - [main.c:143] SWAY_CURSOR_THEME=(null)
+10/15/17 01:28:26 - [main.c:143] SWAY_CURSOR_SIZE=(null)
+10/15/17 01:28:26 - [main.c:143] SWAYSOCK=(null)
+10/15/17 01:28:26 - [main.c:143] WLC_DRM_DEVICE=(null)
+10/15/17 01:28:26 - [main.c:143] WLC_SHM=(null)
+10/15/17 01:28:26 - [main.c:143] WLC_OUTPUTS=(null)
+10/15/17 01:28:26 - [main.c:143] WLC_XWAYLAND=(null)
+10/15/17 01:28:26 - [main.c:143] WLC_LIBINPUT=(null)
+10/15/17 01:28:26 - [main.c:143] WLC_REPEAT_DELAY=(null)
+10/15/17 01:28:26 - [main.c:143] WLC_REPEAT_RATE=(null)
+10/15/17 01:28:26 - [main.c:143] XKB_DEFAULT_RULES=(null)
+10/15/17 01:28:26 - [main.c:143] XKB_DEFAULT_MODEL=(null)
+10/15/17 01:28:26 - [main.c:143] XKB_DEFAULT_LAYOUT=(null)
+10/15/17 01:28:26 - [main.c:143] XKB_DEFAULT_VARIANT=(null)
+10/15/17 01:28:26 - [main.c:143] XKB_DEFAULT_OPTIONS=(null)
+[1;31mWarning: Proprietary nvidia driver support is considered experimental. Nouveau is strongly recommended.[0m
+10/15/17 01:28:26 - [main.c:52] [wlc] Doing work on SUID/SGID side and dropping permissions
+10/15/17 01:28:26 - [main.c:52] [wlc] Running on vt 7 (fd 3)
+10/15/17 01:28:26 - [main.c:52] [wlc] Work done, dropping permissions and checking communication
+10/15/17 01:28:26 - [main.c:50] [wlc] Failed to open X11 display
+10/15/17 01:28:26 - [main.c:386] Dropping extra capabilities
+10/15/17 01:28:26 - [main.c:401] Starting sway version 0.14.0
+
+10/15/17 01:28:26 - [config.c:448] Set XDG_CONFIG_HOME to /home/mavr/.config
+10/15/17 01:28:26 - [config.c:473] Loading config from /etc/sway/security.d/00-defaults
+10/15/17 01:28:26 - [commands.c:514] handling config command 'permit * fullscreen keyboard mouse'
+10/15/17 01:28:26 - [commands.c:343] find_handler(permit) 0
+10/15/17 01:28:26 - [security.c:14] Validating IPC target '*'
+10/15/17 01:28:26 - [permit.c:71] Permissions granted to * for features 112
+10/15/17 01:28:26 - [commands.c:514] handling config command 'permit /usr/bin/swaylock lock'
+10/15/17 01:28:26 - [commands.c:343] find_handler(permit) 0
+10/15/17 01:28:26 - [permit.c:62] cmd_permit:Unable to resolve IPC permit target '/usr/bin/swaylock'. will issue empty policy
+10/15/17 01:28:26 - [security.c:14] Validating IPC target '/usr/bin/swaylock'
+10/15/17 01:28:26 - [security.c:155] get_feature_policy:Unable to allocate security policy
+10/15/17 01:28:26 - [commands.c:514] handling config command 'permit /usr/bin/swaybg background'
+10/15/17 01:28:26 - [commands.c:343] find_handler(permit) 0
+10/15/17 01:28:26 - [security.c:14] Validating IPC target '/usr/bin/swaybg'
+10/15/17 01:28:26 - [permit.c:71] Permissions granted to /usr/bin/swaybg for features 116
+10/15/17 01:28:26 - [commands.c:514] handling config command 'permit /usr/bin/swaygrab screenshot'
+10/15/17 01:28:26 - [commands.c:343] find_handler(permit) 0
+10/15/17 01:28:26 - [permit.c:62] cmd_permit:Unable to resolve IPC permit target '/usr/bin/swaygrab'. will issue empty policy
+10/15/17 01:28:26 - [security.c:14] Validating IPC target '/usr/bin/swaygrab'
+10/15/17 01:28:26 - [security.c:155] get_feature_policy:Unable to allocate security policy
+10/15/17 01:28:26 - [commands.c:514] handling config command 'permit /usr/bin/swaybar panel'
+10/15/17 01:28:26 - [commands.c:343] find_handler(permit) 0
+10/15/17 01:28:26 - [security.c:14] Validating IPC target '/usr/bin/swaybar'
+10/15/17 01:28:26 - [permit.c:71] Permissions granted to /usr/bin/swaybar for features 114
+10/15/17 01:28:26 - [commands.c:514] handling config command 'ipc /usr/bin/swaymsg {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(ipc) 0
+10/15/17 01:28:26 - [security.c:14] Validating IPC target '/usr/bin/swaymsg'
+10/15/17 01:28:26 - [commands.c:514] handling config command '* enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(*) 0
+10/15/17 01:28:26 - [ipc.c:105] Enabled IPC * feature
+10/15/17 01:28:26 - [commands.c:514] handling config command 'events {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(events) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command '* disabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(*) 0
+10/15/17 01:28:26 - [ipc.c:157] Disabled IPC * event
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:817] End of IPC events block
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:812] End of IPC block
+10/15/17 01:28:26 - [commands.c:514] handling config command 'ipc /usr/bin/swaybar {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(ipc) 0
+10/15/17 01:28:26 - [security.c:14] Validating IPC target '/usr/bin/swaybar'
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bar-config enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bar-config) 0
+10/15/17 01:28:26 - [ipc.c:105] Enabled IPC bar-config feature
+10/15/17 01:28:26 - [commands.c:514] handling config command 'outputs enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(outputs) 0
+10/15/17 01:28:26 - [ipc.c:105] Enabled IPC outputs feature
+10/15/17 01:28:26 - [commands.c:514] handling config command 'workspaces enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(workspaces) 0
+10/15/17 01:28:26 - [ipc.c:105] Enabled IPC workspaces feature
+10/15/17 01:28:26 - [commands.c:514] handling config command 'command enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(command) 0
+10/15/17 01:28:26 - [ipc.c:105] Enabled IPC command feature
+10/15/17 01:28:26 - [commands.c:514] handling config command 'events {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(events) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'workspace enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(workspace) 0
+10/15/17 01:28:26 - [ipc.c:154] Enabled IPC workspace event
+10/15/17 01:28:26 - [commands.c:514] handling config command 'mode enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(mode) 0
+10/15/17 01:28:26 - [ipc.c:154] Enabled IPC mode event
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:817] End of IPC events block
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:812] End of IPC block
+10/15/17 01:28:26 - [commands.c:514] handling config command 'ipc /usr/bin/swaygrab {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(ipc) 0
+10/15/17 01:28:26 - [config.c:716] Error on line 39 'ipc /usr/bin/swaygrab {': Unable to resolve IPC Policy target. (/home/mavr/.config/sway/config)
+10/15/17 01:28:26 - [commands.c:514] handling config command 'outputs enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(outputs) 0
+10/15/17 01:28:26 - [config.c:716] Error on line 40 'outputs enabled': Unknown/invalid command (/home/mavr/.config/sway/config)
+10/15/17 01:28:26 - [commands.c:514] handling config command 'tree enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(tree) 0
+10/15/17 01:28:26 - [config.c:716] Error on line 41 'tree enabled': Unknown/invalid command (/home/mavr/.config/sway/config)
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:822] Unmatched }
+10/15/17 01:28:26 - [commands.c:514] handling config command 'ipc /usr/bin/swaylock {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(ipc) 0
+10/15/17 01:28:26 - [config.c:716] Error on line 44 'ipc /usr/bin/swaylock {': Unable to resolve IPC Policy target. (/home/mavr/.config/sway/config)
+10/15/17 01:28:26 - [commands.c:514] handling config command 'outputs enabled'
+10/15/17 01:28:26 - [commands.c:343] find_handler(outputs) 0
+10/15/17 01:28:26 - [config.c:716] Error on line 45 'outputs enabled': Unknown/invalid command (/home/mavr/.config/sway/config)
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:822] Unmatched }
+10/15/17 01:28:26 - [commands.c:514] handling config command 'commands {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(commands) 0
+10/15/17 01:28:26 - [commands.c:343] find_handler(*) 0
+10/15/17 01:28:26 - [commands.c:618] Set command policy for * to -1
+10/15/17 01:28:26 - [commands.c:343] find_handler(fullscreen) 0
+10/15/17 01:28:26 - [commands.c:618] Set command policy for fullscreen to 10
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [commands.c:618] Set command policy for bindsym to 1
+10/15/17 01:28:26 - [commands.c:343] find_handler(exit) 0
+10/15/17 01:28:26 - [commands.c:618] Set command policy for exit to 2
+10/15/17 01:28:26 - [commands.c:343] find_handler(kill) 0
+10/15/17 01:28:26 - [commands.c:618] Set command policy for kill to 2
+10/15/17 01:28:26 - [config.c:807] End of commands block
+10/15/17 01:28:26 - [config.c:496] Error(s) loading config!
+10/15/17 01:28:26 - [config.c:473] Loading config from /home/mavr/.config/sway/config
+10/15/17 01:28:26 - [commands.c:514] handling config command 'font pango: Terminus 9'
+10/15/17 01:28:26 - [commands.c:343] find_handler(font) 0
+10/15/17 01:28:26 - [font.c:25] Settings font  Terminus 9
+10/15/17 01:28:26 - [commands.c:514] handling config command 'client.focused          #2e2c2b #2e2c2b #ffffff #2e9ef4'
+10/15/17 01:28:26 - [commands.c:343] find_handler(client.focused) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'client.focused_inactive #2e2c2b #2E2C2B #ffffff #484e50'
+10/15/17 01:28:26 - [commands.c:343] find_handler(client.focused_inactive) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'client.unfocused        #2E2C2B #2E2C2B #888888 #292d2e'
+10/15/17 01:28:26 - [commands.c:343] find_handler(client.unfocused) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'client.urgent           #2E2C2B #900000 #ffffff #900000'
+10/15/17 01:28:26 - [commands.c:343] find_handler(client.urgent) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'client.background       #ffffff'
+10/15/17 01:28:26 - [commands.c:343] find_handler(client.background) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'for_window [class="^.*"] border pixel 2'
+10/15/17 01:28:26 - [commands.c:343] find_handler(for_window) 0
+10/15/17 01:28:26 - [criteria.c:98] Parsing criteria: '[class="^.*"]'
+10/15/17 01:28:26 - [criteria.c:231] class -> /^.*/
+10/15/17 01:28:26 - [for_window.c:37] for_window: '[class="^.*"]' -> 'border pixel 2' added
+10/15/17 01:28:26 - [commands.c:514] handling config command 'new_window 1pixel'
+10/15/17 01:28:26 - [commands.c:343] find_handler(new_window) 0
+10/15/17 01:28:26 - [new_window.c:6] `new_window` is deprecated and will be removed in the future. Please use `default_border` instead.
+10/15/17 01:28:26 - [config.c:716] Error on line 31 'new_window 1pixel': Expected 'default_border <normal|none|pixel> [<n>] (/home/mavr/.config/sway/config)
+10/15/17 01:28:26 - [commands.c:514] handling config command 'set $up l'
+10/15/17 01:28:26 - [commands.c:343] find_handler(set) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'set $down k'
+10/15/17 01:28:26 - [commands.c:343] find_handler(set) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'set $left j'
+10/15/17 01:28:26 - [commands.c:343] find_handler(set) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'set $right semicolon'
+10/15/17 01:28:26 - [commands.c:343] find_handler(set) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'floating_modifier Mod4'
+10/15/17 01:28:26 - [commands.c:343] find_handler(floating_modifier) 0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Return exec urxvt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Return to command exec urxvt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+q kill'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+q to command kill
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+d exec dmenu_run'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+d to command exec dmenu_run
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+$left focus left'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+j to command focus left
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+$down focus down'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+k to command focus down
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+$up focus up'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+l to command focus up
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+$right focus right'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+semicolon to command focus right
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Left focus left'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Left to command focus left
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Down focus down'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Down to command focus down
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Up focus up'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Up to command focus up
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Right focus right'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Right to command focus right
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+$left move left'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+j to command move left
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+$down move down'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+k to command move down
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+$up move up'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+l to command move up
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+$right move right'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+semicolon to command move right
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+Left move left'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+Left to command move left
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+Down move down'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+Down to command move down
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+Up move up'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+Up to command move up
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+Right move right'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+Right to command move right
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+h split h'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+h to command split h
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+v split v'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+v to command split v
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+f fullscreen toggle'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+f to command fullscreen toggle
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+s layout stacking'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+s to command layout stacking
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+w layout tabbed'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+w to command layout tabbed
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+e layout toggle split'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+e to command layout toggle split
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+space floating toggle'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+space to command floating toggle
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+space focus mode_toggle'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+space to command focus mode_toggle
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+a focus parent'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+a to command focus parent
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+minus move scratchpad'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+minus to command move scratchpad
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+minus scratchpad show'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+minus to command scratchpad show
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+1 workspace 1'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+1 to command workspace 1
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+2 workspace 2'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+2 to command workspace 2
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+3 workspace 3'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+3 to command workspace 3
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+4 workspace 4'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+4 to command workspace 4
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+5 workspace 5'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+5 to command workspace 5
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+6 workspace 6'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+6 to command workspace 6
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+7 workspace 7'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+7 to command workspace 7
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+8 workspace 8'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+8 to command workspace 8
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+9 workspace 9'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+9 to command workspace 9
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+0 workspace 10'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+0 to command workspace 10
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+1 move container to workspace 1'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+1 to command move container to workspace 1
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+2 move container to workspace 2'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+2 to command move container to workspace 2
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+3 move container to workspace 3'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+3 to command move container to workspace 3
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+4 move container to workspace 4'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+4 to command move container to workspace 4
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+5 move container to workspace 5'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+5 to command move container to workspace 5
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+6 move container to workspace 6'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+6 to command move container to workspace 6
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+7 move container to workspace 7'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+7 to command move container to workspace 7
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+8 move container to workspace 8'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+8 to command move container to workspace 8
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+9 move container to workspace 9'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+9 to command move container to workspace 9
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+0 move container to workspace 10'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+0 to command move container to workspace 10
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+c reload'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+c to command reload
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+r restart'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+r to command restart
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+Shift+e to command exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod1+l exec i3lock -c 000000 -n'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod1+l to command exec i3lock -c 000000 -n
+10/15/17 01:28:26 - [commands.c:514] handling config command 'mode "resize" {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(mode) 0
+10/15/17 01:28:26 - [mode.c:48] Switching to mode `resize'
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym $left       resize shrink width 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound j to command resize shrink width 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym $down       resize grow height 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound k to command resize grow height 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym $up         resize shrink height 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound l to command resize shrink height 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym $right      resize grow width 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound semicolon to command resize grow width 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Left        resize shrink width 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Left to command resize shrink width 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Down        resize grow height 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Down to command resize grow height 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Up          resize shrink height 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Up to command resize shrink height 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Right       resize grow width 10 px or 10 ppt'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Right to command resize grow width 10 px or 10 ppt
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Return mode "default"'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Return to command mode "default"
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Escape mode "default"'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Escape to command mode "default"
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:784] End of mode block
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+r mode "resize"'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+r to command mode "resize"
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bar {'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bar) 0
+10/15/17 01:28:26 - [bar.c:57] Configuring bar bar-0
+10/15/17 01:28:26 - [commands.c:514] handling config command 'status_command i3status'
+10/15/17 01:28:26 - [commands.c:343] find_handler(status_command) 0
+10/15/17 01:28:26 - [status_command.c:18] Feeding bar with status command: i3status
+10/15/17 01:28:26 - [commands.c:514] handling config command 'position top'
+10/15/17 01:28:26 - [commands.c:343] find_handler(position) 0
+10/15/17 01:28:26 - [position.c:31] Setting bar position 'top' for bar: bar-0
+10/15/17 01:28:26 - [commands.c:514] handling config command '}'
+10/15/17 01:28:26 - [config.c:796] End of bar block
+10/15/17 01:28:26 - [commands.c:514] handling config command 'bindsym Mod4+g exec ~/load_layout.sh'
+10/15/17 01:28:26 - [commands.c:343] find_handler(bindsym) 0
+10/15/17 01:28:26 - [bind.c:94] bindsym - Bound Mod4+g to command exec ~/load_layout.sh
+10/15/17 01:28:26 - [commands.c:514] handling config command 'exec i3-config-wizard'
+10/15/17 01:28:26 - [commands.c:343] find_handler(exec) 0
+10/15/17 01:28:26 - [config.c:721] Defferring command `exec i3-config-wizard'
+10/15/17 01:28:26 - [commands.c:514] handling config command 'exec compton'
+10/15/17 01:28:26 - [commands.c:343] find_handler(exec) 0
+10/15/17 01:28:26 - [config.c:721] Defferring command `exec compton'
+10/15/17 01:28:26 - [config.c:496] Error(s) loading config!
+10/15/17 01:28:26 - [main.c:52] [wlc] libinput: resume
+10/15/17 01:28:26 - [main.c:52] [wlc] Activating tty
+10/15/17 01:28:26 - [main.c:50] [wlc] Connector 0 is not connected or has no modes
+10/15/17 01:28:26 - [main.c:50] [wlc] Connector 1 is not connected or has no modes
+10/15/17 01:28:26 - [main.c:50] [wlc] Connector 2 is not connected or has no modes
+10/15/17 01:28:26 - [main.c:52] [wlc] become active
+10/15/17 01:28:26 - [main.c:52] [wlc] Cleanup wlc
+10/15/17 01:28:26 - [main.c:52] [wlc] Parent exit (4928)
+10/15/17 01:28:26 - [main.c:52] [wlc] Restoring vt 7 (0x3) (fd 3)
