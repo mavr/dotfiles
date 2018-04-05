@@ -1,3 +1,22 @@
+set_from_resource	  $color15_i3wmthemer	    color15
+set_from_resource	  $color14_i3wmthemer	    color14
+set_from_resource	  $color13_i3wmthemer	    color13
+set_from_resource	  $color12_i3wmthemer	    color12
+set_from_resource	  $color11_i3wmthemer	    color11
+set_from_resource	  $color10_i3wmthemer	    color10
+set_from_resource	  $color09_i3wmthemer		  color9
+set_from_resource	  $color08_i3wmthemer		  color8
+set_from_resource	  $color07_i3wmthemer		  color7
+set_from_resource 	$color06_i3wmthemer		  color6
+set_from_resource 	$color05_i3wmthemer 	    color5
+set_from_resource 	$color04_i3wmthemer 	    color4
+set_from_resource 	$color03_i3wmthemer 	    color3
+set_from_resource 	$color02_i3wmthemer 	    color2
+set_from_resource 	$color01_i3wmthemer 	    color1
+set_from_resource	  $color00_i3wmthemer		  color0
+set_from_resource	  $foreground_i3wmthemer	foreground
+set_from_resource	  $background_i3wmthemer	background
+
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
@@ -20,15 +39,15 @@ font pango: Terminus 9
 
 
 # Windows
-# class                 border  backgr. text    indicator
-client.focused          #2E2C2B #2E2C2B #BDB2AD #2e9ef4
-client.focused_inactive #110f0e #110f0e #110f0e #484e50 
-client.unfocused        #2E2C2B #2E2C2B #888888 #292d2e
-client.urgent           #2E2C2B #900000 #110f0e #900000
-client.background       #110f0e
+# class                 border                  backgr.                 text                    indicator
+client.focused         	$background_i3wmthemer	$background_i3wmthemer	$foreground_i3wmthemer	$color08_i3wmthemer		$color02_i3wmthemer
+client.focused_inactive	$background_i3wmthemer	$background_i3wmthemer	$foreground_i3wmthemer	$color04_i3wmthemer		$color04_i3wmthemer
+client.unfocused       	$background_i3wmthemer	$background_i3wmthemer	$color08_i3wmthemer	$color04_i3wmthemer		$color04_i3wmthemer
+client.urgent		        $background_i3wmthemer	$background_i3wmthemer	$foreground_i3wmthemer	$color04_i3wmthemer		$color04_i3wmthemer
+client.background	      $background_i3wmthemer
 
 for_window [class="^.*"] border pixel 0 
-new_window 1pixel
+new_window pixel 2
 
 #gaps inner 2
 #gaps outer 1
@@ -137,7 +156,7 @@ bindsym Mod1+3 workspace 3
 bindsym Mod1+4 workspace 4
 bindsym Mod1+5 workspace 5
 bindsym Mod1+6 workspace 6
-bindsym Mod1+7 workspace 7 
+bindsym Mod1+7 workspace 7
 bindsym Mod1+8 workspace 8
 bindsym Mod1+9 workspace 9
 bindsym Mod1+0 workspace 10
@@ -158,6 +177,7 @@ bindsym Mod4+Shift+0 move container to workspace 10
 bindsym Mod4+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym Mod4+Shift+r restart
+
 # exit i3 (logs you out of your X session)
 bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
@@ -168,6 +188,8 @@ bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
 bindsym XF86AudioMute exec amixer set Master toggle
 bindsym XF86AudioRecord exec amixer set Capture toggle
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

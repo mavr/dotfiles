@@ -1,0 +1,76 @@
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.autohint:   true
+Xft.lcdfilter:  lcddefault
+
+
+*.foreground:   #f0f0e1
+*.background:   #252526
+*.cursorColor:  #EAD49B
+
+*fading:                  25
+*fadeColor:               #252526
+
+
+!*.foreground:   #EAD49B
+!*.background:   #1E272B
+
+! Black + DarkGrey
+*.color0:      #1E272B
+*.color8:      #666666
+! DarkRed + Red
+*.color1:      #685742
+*.color9:      #685742
+! DarkGreen + Green
+*.color10:     #9D6A47
+*.color2:      #9D6A47
+! DarkYellow + Yellow
+*.color3:      #B36D43
+*.color11:     #B36D43
+! DarkBlue + Blue
+*.color4:      #78824B
+*.color12:     #78824B
+! DarkMargenta + Margenta
+*.color5:      #D99F57
+*.color13:     #D99F57
+! DarkCyan + Cyan
+*.color6:      #C9A554
+*.color14:     #C9A554
+! LightGrey + White
+*.color7:      #EAD49B
+*.color15:     #EAD49B
+
+URxvt*font: xft:DejaVu Sans Mono:antialias=true:pixelsize=14
+URxvt*boldFont: xft:DejaVu Sans Mono:style=bold:antialias=true:pixelsize=14
+URxvt*italicFont: xft:DejaVu Sans Mono:style=italic:antialias=true:pixelsize=14
+URxvt*boldItalicFont: xft:DejaVu Sans Mono:style=bolditalic:antialias=true:pixelsize=14
+
+URxvt.scrollBar: false
+
+! Rofi Settings
+rofi.width:             52
+rofi.padding:   300
+rofi.fullscreen: true
+rofi.fixed-num-lines: true
+rofi.bw:                0
+rofi.location:  0
+rofi.terminal:  termite
+rofi.lines:             10
+rofi.eh:                1
+rofi.hide-scrollbar: true
+rofi.font: Hack Regular 12
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #1E272B, #9D6A47, #9D6A47
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
+rofi.color-active: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
+rofi.color-urgent: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
+

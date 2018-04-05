@@ -28,19 +28,19 @@ INTERFACE="${BLOCK_INSTANCE:-wlp4s0}"
 #------------------------------------------------------------------------
 
 QUALITY=$(grep $INTERFACE /proc/net/wireless | awk '{ print int($3 * 100 / 70) }')
+SSID=$(/sbin/iwgetid -r)
 
 #------------------------------------------------------------------------
 
-echo $QUALITY% # full text
-echo $QUALITY% # short text
+#echo $SSID $QUALITY% # full text
+#echo $SSID $QUALITY% # short text
 
-# color
 if [[ $QUALITY -ge 80 ]]; then
-    echo "#00FF00"
-elif [[ $QUALITY -lt 80 ]]; then
-    echo "#FFF600"
-elif [[ $QUALITY -lt 60 ]]; then
-    echo "#FFAE00"
-elif [[ $QUALITY -lt 40 ]]; then
-    echo "#FF0000"
+      echo -en " $SSID $QUALITY%"
+  elif [[ $QUALITY -lt 80 ]]; then
+      echo -en " $SSID"
+  elif [[ $QUALITY -lt 60 ]]; then
+      echo -en " $SSID"
+  elif [[ $QUALITY -lt 40 ]]; then
+      echo -en " $SSID"
 fi

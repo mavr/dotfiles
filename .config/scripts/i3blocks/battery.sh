@@ -1,6 +1,8 @@
 #!/bin/bash
 batinf='acpi -b'
-perc=$(acpi -b | awk '{print $4;}' | sed 's/%//g' | sed 's/,//g')
+perc1=$(acpi -b | awk '{print $4;}' | sed 's/%//g' | sed 's/,//g' | head -1)
+perc2=$(acpi -b | awk '{print $4;}' | sed 's/%//g' | sed 's/,//g' | tail -1)
+perc=$(( ($perc1+$perc2)/2 ))
 charging=$(acpi -b | grep -c Discharging)
 if [ ! $charging -eq 1 ]
 then echo " $perc%"

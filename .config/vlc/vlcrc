@@ -1,12 +1,47 @@
 ﻿###
-###  vlc 2.2.6
+###  vlc 3.0.0
 ###
 
 ###
 ### lines beginning with a '#' character are comments
 ###
 
-[qt4] # Qt interface
+[file] # File logger
+
+# Log to file (boolean)
+#file-logging=0
+
+# Log filename (string)
+#logfile=
+
+# Log format (string)
+#logmode=text
+
+# Verbosity (integer)
+#log-verbose=-1
+
+[console] # Console logger
+
+[syslog] # System logger (syslog)
+
+# System log (syslog) (boolean)
+#syslog=0
+
+# Debug messages (boolean)
+#syslog-debug=0
+
+# Identity (string)
+#syslog-ident=vlc
+
+# Facility (string)
+#syslog-facility=user
+
+[ncurses] # Ncurses interface
+
+# Filebrowser starting point (string)
+#browse-dir=
+
+[qt] # Qt interface
 
 # Start in minimal view (without menus) (boolean)
 #qt-minimal-view=0
@@ -56,7 +91,7 @@
 # Show unimportant error and warnings dialogs (boolean)
 #qt-error-dialogs=1
 
-# Define the colors of the volume slider  (string)
+# Define the colors of the volume slider (string)
 #qt-slider-colours=153;210;153;20;210;20;255;199;15;245;39;29
 
 # Ask for network policy at start (boolean)
@@ -71,7 +106,7 @@ qt-privacy-ask=0
 # Display background cone or art (boolean)
 #qt-bgcone=1
 
-# Expanding background cone or art. (boolean)
+# Expanding background cone or art (boolean)
 #qt-bgcone-expands=0
 
 # Allow automatic icon changes (boolean)
@@ -83,73 +118,8 @@ qt-privacy-ask=0
 # Fullscreen controller mouse sensitivity (integer)
 #qt-fs-sensitivity=3
 
-[ncurses] # Ncurses interface
-
-# Filebrowser starting point (string)
-#browse-dir=
-
-[logo] # Logo sub source
-
-# Logo filenames (string)
-#logo-file=
-
-# X coordinate (integer)
-#logo-x=-1
-
-# Y coordinate (integer)
-#logo-y=-1
-
-# Logo individual image time in ms (integer)
-#logo-delay=1000
-
-# Logo animation # of loops (integer)
-#logo-repeat=-1
-
-# Opacity of the logo (integer)
-#logo-opacity=255
-
-# Logo position (integer)
-#logo-position=-1
-
-[audiobargraph_v] # Audio Bar Graph Video sub source
-
-# X coordinate (integer)
-#audiobargraph_v-x=0
-
-# Y coordinate (integer)
-#audiobargraph_v-y=0
-
-# Transparency of the bargraph (integer)
-#audiobargraph_v-transparency=255
-
-# Bargraph position (integer)
-#audiobargraph_v-position=-1
-
-# Bar width in pixel (default : 10) (integer)
-#audiobargraph_v-barWidth=10
-
-[subsdelay] # Subtitle delay
-
-# Delay calculation mode (integer)
-#subsdelay-mode=1
-
-# Calculation factor (float)
-#subsdelay-factor=2.000000
-
-# Maximum overlapping subtitles (integer)
-#subsdelay-overlap=3
-
-# Minimum alpha value (integer)
-#subsdelay-min-alpha=70
-
-# Interval between two disappearances (integer)
-#subsdelay-min-stops=1000
-
-# Interval between appearance and disappearance (integer)
-#subsdelay-min-start-stop=1000
-
-# Interval between disappearance and appearance (integer)
-#subsdelay-min-stop-start=1000
+# When to raise the interface (integer)
+#qt-auto-raise=1
 
 [erase] # Erase video filter
 
@@ -182,44 +152,6 @@ qt-privacy-ask=0
 # Chroma for the blend image (string)
 #blendbench-blend-chroma=YUVA
 
-[rss] # RSS and Atom feed display
-
-# Feed URLs (string)
-#rss-urls=
-
-# X offset (integer)
-#rss-x=0
-
-# Y offset (integer)
-#rss-y=0
-
-# Text position (integer)
-#rss-position=-1
-
-# Opacity (integer)
-#rss-opacity=255
-
-# Color (integer)
-#rss-color=16777215
-
-# Font size, pixels (integer)
-#rss-size=-1
-
-# Speed of feeds (integer)
-#rss-speed=100000
-
-# Max length (integer)
-#rss-length=60
-
-# Refresh time (integer)
-#rss-ttl=1800
-
-# Feed images (boolean)
-#rss-images=1
-
-# Title display mode (integer)
-#rss-title=-1
-
 [gradient] # Gradient video filter
 
 # Distort mode (string)
@@ -244,56 +176,6 @@ qt-privacy-ask=0
 
 # Pad video (boolean)
 #canvas-padd=1
-
-[mosaic] # Mosaic video sub source
-
-# Transparency (integer)
-#mosaic-alpha=255
-
-# Height (integer)
-#mosaic-height=100
-
-# Width (integer)
-#mosaic-width=100
-
-# Mosaic alignment (integer)
-#mosaic-align=5
-
-# Top left corner X coordinate (integer)
-#mosaic-xoffset=0
-
-# Top left corner Y coordinate (integer)
-#mosaic-yoffset=0
-
-# Border width (integer)
-#mosaic-borderw=0
-
-# Border height (integer)
-#mosaic-borderh=0
-
-# Positioning method (integer)
-#mosaic-position=0
-
-# Number of rows (integer)
-#mosaic-rows=2
-
-# Number of columns (integer)
-#mosaic-cols=2
-
-# Keep aspect ratio (boolean)
-#mosaic-keep-aspect-ratio=0
-
-# Keep original size (boolean)
-#mosaic-keep-picture=0
-
-# Elements order (string)
-#mosaic-order=
-
-# Offsets in order (string)
-#mosaic-offsets=
-
-# Delay (integer)
-#mosaic-delay=0
 
 [ball] # Ball video filter
 
@@ -338,6 +220,11 @@ qt-privacy-ask=0
 
 # Maximal period (integer)
 #grain-period-max=48
+
+[fps] # FPS conversion video filter
+
+# Frame rate (string)
+#fps-fps=
 
 [sharpen] # Sharpen video filter
 
@@ -384,14 +271,6 @@ qt-privacy-ask=0
 # Temporal chroma strength (0-254) (float)
 #hqdn3d-chroma-temp=4.500000
 
-[dynamicoverlay] # Dynamic video overlay
-
-# Input FIFO (string)
-#overlay-input=
-
-# Output FIFO (string)
-#overlay-output=
-
 [transform] # Video transformation filter
 
 # Transform type (string)
@@ -416,68 +295,10 @@ qt-privacy-ask=0
 # Bluescreen V tolerance (integer)
 #bluescreen-vt=17
 
-[marq] # Marquee display
-
-# Text (string)
-#marq-marquee=VLC
-
-# Text file (string)
-#marq-file=
-
-# X offset (integer)
-#marq-x=0
-
-# Y offset (integer)
-#marq-y=0
-
-# Marquee position (integer)
-#marq-position=-1
-
-# Opacity (integer)
-#marq-opacity=255
-
-# Color (integer)
-#marq-color=16777215
-
-# Font size, pixels (integer)
-#marq-size=-1
-
-# Timeout (integer)
-#marq-timeout=0
-
-# Refresh period in ms (integer)
-#marq-refresh=1000
-
 [gaussianblur] # Gaussian blur video filter
 
 # Gaussian's std deviation (float)
 #gaussianblur-sigma=2.000000
-
-[remoteosd] # Remote-OSD over VNC
-
-# VNC Host (string)
-#rmtosd-host=myvdr
-
-# VNC Port (integer)
-#rmtosd-port=20001
-
-# VNC Password (string)
-#rmtosd-password=
-
-# VNC poll interval (integer)
-#rmtosd-update=1000
-
-# VNC polling (boolean)
-#rmtosd-vnc-polling=0
-
-# Mouse events (boolean)
-#rmtosd-mouse-events=0
-
-# Key events (boolean)
-#rmtosd-key-events=0
-
-# Alpha transparency value (default 255) (integer)
-#rmtosd-alpha=255
 
 [adjust] # Image properties filter
 
@@ -487,8 +308,8 @@ qt-privacy-ask=0
 # Image brightness (0-2) (float)
 #brightness=1.000000
 
-# Image hue (0-360) (integer)
-#hue=0
+# Image hue (-180..180) (float)
+#hue=0.000000
 
 # Image saturation (0-3) (float)
 #saturation=1.000000
@@ -684,7 +505,7 @@ qt-privacy-ask=0
 # Peak height (integer)
 #spect-peak-height=1
 
-[access_output_file] # File stream output
+[file] # File stream output
 
 # Overwrite existing file (boolean)
 #sout-file-overwrite=1
@@ -747,7 +568,7 @@ qt-privacy-ask=0
 # File where vlc reads key-uri and keyfile-location (string)
 #sout-livehttp-key-loadfile=
 
-[access_output_http] # HTTP stream output
+[http] # HTTP stream output
 
 # Username (string)
 #sout-http-user=
@@ -860,6 +681,11 @@ qt-privacy-ask=0
 # Element aspect ratio (string)
 #wall-element-aspect=16:9
 
+[file] # Secrets are stored on a file without any encryption
+
+# ? (string)
+#keystore-file=
+
 [sap] # Network streams (SAP)
 
 # SAP multicast address (string)
@@ -881,22 +707,7 @@ qt-privacy-ask=0
 
 [logger] # File logging
 
-# Log filename (string)
-#logfile=
-
-# Log format (string)
-#logmode=text
-
-# Syslog ident (string)
-#syslog-ident=vlc
-
-# Syslog facility (string)
-#syslog-facility=user
-
-# Verbosity (integer)
-#log-verbose=-1
-
-[vod_rtsp] # Legacy RTSP VoD server
+[rtsp] # Legacy RTSP VoD server
 
 # MUX for RAW RTSP transport (string)
 #rtsp-raw-mux=ts
@@ -918,7 +729,227 @@ qt-privacy-ask=0
 # Scrobbler URL (string)
 #scrobbler-url=post.audioscrobbler.com
 
-[mux_avi] # AVI muxer
+[logo] # Logo sub source
+
+# Logo filenames (string)
+#logo-file=
+
+# X coordinate (integer)
+#logo-x=-1
+
+# Y coordinate (integer)
+#logo-y=-1
+
+# Logo individual image time in ms (integer)
+#logo-delay=1000
+
+# Logo animation # of loops (integer)
+#logo-repeat=-1
+
+# Opacity of the logo (integer)
+#logo-opacity=255
+
+# Logo position (integer)
+#logo-position=-1
+
+[audiobargraph_v] # Audio Bar Graph Video sub source
+
+# X coordinate (integer)
+#audiobargraph_v-x=0
+
+# Y coordinate (integer)
+#audiobargraph_v-y=0
+
+# Transparency of the bargraph (integer)
+#audiobargraph_v-transparency=255
+
+# Bargraph position (integer)
+#audiobargraph_v-position=-1
+
+# Bar width in pixel (integer)
+#audiobargraph_v-barWidth=10
+
+# Bar Height in pixel (integer)
+#audiobargraph_v-barHeight=400
+
+[subsdelay] # Subtitle delay
+
+# Delay calculation mode (integer)
+#subsdelay-mode=1
+
+# Calculation factor (float)
+#subsdelay-factor=2.000000
+
+# Maximum overlapping subtitles (integer)
+#subsdelay-overlap=3
+
+# Minimum alpha value (integer)
+#subsdelay-min-alpha=70
+
+# Interval between two disappearances (integer)
+#subsdelay-min-stops=1000
+
+# Interval between appearance and disappearance (integer)
+#subsdelay-min-start-stop=1000
+
+# Interval between disappearance and appearance (integer)
+#subsdelay-min-stop-start=1000
+
+[rss] # RSS and Atom feed display
+
+# Feed URLs (string)
+#rss-urls=
+
+# X offset (integer)
+#rss-x=0
+
+# Y offset (integer)
+#rss-y=0
+
+# Text position (integer)
+#rss-position=-1
+
+# Opacity (integer)
+#rss-opacity=255
+
+# Color (integer)
+#rss-color=16777215
+
+# Font size, pixels (integer)
+#rss-size=0
+
+# Speed of feeds (integer)
+#rss-speed=100000
+
+# Max length (integer)
+#rss-length=60
+
+# Refresh time (integer)
+#rss-ttl=1800
+
+# Feed images (boolean)
+#rss-images=1
+
+# Title display mode (integer)
+#rss-title=-1
+
+[mosaic] # Mosaic video sub source
+
+# Transparency (integer)
+#mosaic-alpha=255
+
+# Height (integer)
+#mosaic-height=100
+
+# Width (integer)
+#mosaic-width=100
+
+# Mosaic alignment (integer)
+#mosaic-align=5
+
+# Top left corner X coordinate (integer)
+#mosaic-xoffset=0
+
+# Top left corner Y coordinate (integer)
+#mosaic-yoffset=0
+
+# Border width (integer)
+#mosaic-borderw=0
+
+# Border height (integer)
+#mosaic-borderh=0
+
+# Positioning method (integer)
+#mosaic-position=0
+
+# Number of rows (integer)
+#mosaic-rows=2
+
+# Number of columns (integer)
+#mosaic-cols=2
+
+# Keep aspect ratio (boolean)
+#mosaic-keep-aspect-ratio=0
+
+# Keep original size (boolean)
+#mosaic-keep-picture=0
+
+# Elements order (string)
+#mosaic-order=
+
+# Offsets in order (string)
+#mosaic-offsets=
+
+# Delay (integer)
+#mosaic-delay=0
+
+[dynamicoverlay] # Dynamic video overlay
+
+# Input FIFO (string)
+#overlay-input=
+
+# Output FIFO (string)
+#overlay-output=
+
+[marq] # Marquee display
+
+# Text (string)
+#marq-marquee=VLC
+
+# Text file (string)
+#marq-file=
+
+# X offset (integer)
+#marq-x=0
+
+# Y offset (integer)
+#marq-y=0
+
+# Marquee position (integer)
+#marq-position=-1
+
+# Opacity (integer)
+#marq-opacity=255
+
+# Color (integer)
+#marq-color=16777215
+
+# Font size, pixels (integer)
+#marq-size=0
+
+# Timeout (integer)
+#marq-timeout=0
+
+# Refresh period in ms (integer)
+#marq-refresh=1000
+
+[remoteosd] # Remote-OSD over VNC
+
+# VNC Host (string)
+#rmtosd-host=myvdr
+
+# VNC Port (integer)
+#rmtosd-port=20001
+
+# VNC Password (string)
+#rmtosd-password=
+
+# VNC poll interval (integer)
+#rmtosd-update=1000
+
+# VNC polling (boolean)
+#rmtosd-vnc-polling=0
+
+# Mouse events (boolean)
+#rmtosd-mouse-events=0
+
+# Key events (boolean)
+#rmtosd-key-events=0
+
+# Alpha transparency value (default 255) (integer)
+#rmtosd-alpha=255
+
+[avi] # AVI muxer
 
 # Artist (string)
 #sout-avi-artist=
@@ -942,12 +973,12 @@ qt-privacy-ask=0
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 2.2.6 Umbrella
+#sout-avi-encoder=VLC Media Player - 3.0.0 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
 
-[mux_asf] # ASF muxer
+[asf] # ASF muxer
 
 # Title (string)
 #sout-asf-title=
@@ -970,7 +1001,7 @@ qt-privacy-ask=0
 # Bitrate override (integer)
 #sout-asf-bitrate-override=0
 
-[mux_ps] # PS muxer
+[ps] # PS muxer
 
 # DTS delay (ms) (integer)
 #sout-ps-dts-delay=200
@@ -980,17 +1011,20 @@ qt-privacy-ask=0
 
 [mux_ts] # TS muxer (libdvbpsi)
 
+# Digital TV Standard (string)
+#sout-ts-standard=dvb
+
 # Video PID (integer)
-#sout-ts-pid-video=0
+#sout-ts-pid-video=100
 
 # Audio PID (integer)
-#sout-ts-pid-audio=0
+#sout-ts-pid-audio=200
 
 # SPU PID (integer)
-#sout-ts-pid-spu=0
+#sout-ts-pid-spu=300
 
 # PMT PID (integer)
-#sout-ts-pid-pmt=0
+#sout-ts-pid-pmt=32
 
 # TS ID (integer)
 #sout-ts-tsid=0
@@ -1049,12 +1083,12 @@ qt-privacy-ask=0
 # Packet size in bytes to encrypt (integer)
 #sout-ts-csa-pkt=188
 
-[mux_mp4] # MP4/MOV muxer
+[mp4] # MP4/MOV muxer
 
 # Create "Fast Start" files (boolean)
 #sout-mp4-faststart=1
 
-[stream_out_setid] # Change the id of an elementary stream
+[setid] # Change the id of an elementary stream
 
 # Elementary Stream ID (integer)
 #sout-setid-id=0
@@ -1079,10 +1113,10 @@ qt-privacy-ask=0
 # Output destination (string)
 #sout-standard-dst=
 
-# address to bind to (helper setting for dst) (string)
+# Address to bind to (helper setting for dst) (string)
 #sout-standard-bind=
 
-# filename for stream (helper setting for dst) (string)
+# Filename for stream (helper setting for dst) (string)
 #sout-standard-path=
 
 # SAP announcing (boolean)
@@ -1099,9 +1133,6 @@ qt-privacy-ask=0
 
 # Session email (string)
 #sout-standard-email=
-
-# Session phone number (string)
-#sout-standard-phone=
 
 [stream_out_rtp] # RTP stream output
 
@@ -1131,9 +1162,6 @@ qt-privacy-ask=0
 
 # Session email (string)
 #sout-rtp-email=
-
-# Session phone number (string)
-#sout-rtp-phone=
 
 # Transport protocol (string)
 #sout-rtp-proto=udp
@@ -1174,7 +1202,7 @@ qt-privacy-ask=0
 # Password (string)
 #sout-rtsp-pwd=
 
-[stream_out_bridge] # Bridge stream output
+[bridge] # Bridge stream output
 
 # ID (integer)
 #sout-bridge-out-id=0
@@ -1200,7 +1228,7 @@ qt-privacy-ask=0
 # Wait for I frame before toggling placeholder (boolean)
 #sout-bridge-in-placeholder-switch-on-iframe=1
 
-[stream_out_mosaic_bridge] # Mosaic bridge stream output
+[mosaic_bridge] # Mosaic bridge stream output
 
 # ID (string)
 #sout-mosaic-bridge-id=Id
@@ -1229,12 +1257,12 @@ qt-privacy-ask=0
 # Y offset (integer)
 #sout-mosaic-bridge-y=-1
 
-[stream_out_record] # Record stream output
+[record] # Record stream output
 
 # Destination prefix (string)
 #sout-record-dst-prefix=
 
-[stream_out_delay] # Delay a stream
+[delay] # Delay a stream
 
 # Elementary Stream ID (integer)
 #sout-delay-id=0
@@ -1242,21 +1270,7 @@ qt-privacy-ask=0
 # Delay of the ES (ms) (integer)
 #sout-delay-delay=0
 
-[stream_out_langfromtelx] # Dynamic language setting from teletext
-
-# Elementary Stream ID (integer)
-#sout-langfromtelx-id=0
-
-# Magazine (integer)
-#sout-langfromtelx-magazine=7
-
-# Page (integer)
-#sout-langfromtelx-page=153
-
-# Row (integer)
-#sout-langfromtelx-row=1
-
-[stream_out_stats] # Writes statistic info about stream
+[stats] # Writes statistic info about stream
 
 # Output file (string)
 #sout-stats-output=
@@ -1335,16 +1349,16 @@ qt-privacy-ask=0
 # Overlays (string)
 #sout-transcode-sfilter=
 
-# OSD menu (boolean)
-#sout-transcode-osd=0
-
 # Number of threads (integer)
 #sout-transcode-threads=0
+
+# Picture pool size (integer)
+#sout-transcode-pool-size=10
 
 # High priority (boolean)
 #sout-transcode-high-priority=0
 
-[stream_out_es] # Elementary stream output
+[es] # Elementary stream output
 
 # Output access method (string)
 #sout-es-access=
@@ -1373,26 +1387,12 @@ qt-privacy-ask=0
 # Video output URL (string)
 #sout-es-dst-video=
 
-[stream_out_smem] # Stream output to memory buffer
+[smem] # Stream output to memory buffer
 
 # Time Synchronized output (boolean)
 #sout-smem-time-sync=1
 
-[stream_out_raop] # Remote Audio Output Protocol stream output
-
-# Host (string)
-#sout-raop-host=
-
-# Password (string)
-#sout-raop-password=
-
-# Password file (string)
-#sout-raop-password-file=
-
-# Volume (integer)
-#sout-raop-volume=100
-
-[stream_out_display] # Display stream output
+[display] # Display stream output
 
 # Enable audio (boolean)
 #sout-display-audio=1
@@ -1453,10 +1453,23 @@ qt-privacy-ask=0
 # Workaround for France (boolean)
 #telx-french-workaround=0
 
+[ttml] # TTML subtitles decoder
+
+# Subtitle justification (integer)
+#ttml-align=0
+
+[subsusf] # USF subtitles decoder
+
+# Formatted Subtitles (boolean)
+#subsdec-formatted=1
+
 [avcodec] # FFmpeg audio/video decoder
 
 # Direct rendering (boolean)
 #avcodec-dr=1
+
+# Show corrupted frames (boolean)
+#avcodec-corrupted=1
 
 # Error resilience (integer)
 #avcodec-error-resilience=1
@@ -1472,9 +1485,6 @@ qt-privacy-ask=0
 
 # Skip idct (default=0) (integer)
 #avcodec-skip-idct=0
-
-# Visualize motion vectors (integer)
-#avcodec-vismv=0
 
 # Allow speed tricks (boolean)
 #avcodec-fast=0
@@ -1580,6 +1590,11 @@ avcodec-hw=vdpau_avcodec
 
 [svcdsub] # Philips OGT (SVCD subtitle) decoder
 
+[cc] # Closed Captions decoder
+
+# Opacity (boolean)
+#cc-opaque=1
+
 [subsdec] # Text subtitle decoder
 
 # Subtitle justification (integer)
@@ -1590,9 +1605,6 @@ avcodec-hw=vdpau_avcodec
 
 # UTF-8 subtitle autodetection (boolean)
 #subsdec-autodetect-utf8=1
-
-# Formatted Subtitles (boolean)
-#subsdec-formatted=1
 
 [ddummy] # Dummy decoder
 
@@ -1631,10 +1643,24 @@ avcodec-hw=vdpau_avcodec
 # Framebuffer uses hw acceleration (boolean)
 #fb-hw-accel=1
 
-[gl] # OpenGL video output (experimental)
+[gl] # OpenGL video output
 
 # OpenGL extension (string)
 #gl=
+
+# Open GL/GLES hardware converter (string)
+#glconv=
+
+[flaschen] # Flaschen-Taschen video output
+
+# Flaschen-Taschen display address (string)
+#flaschen-display=
+
+# Width (integer)
+#flaschen-width=25
+
+# Height (integer)
+#flaschen-height=20
 
 [yuv] # YUV video output
 
@@ -1644,7 +1670,7 @@ avcodec-hw=vdpau_avcodec
 # Chroma used (string)
 #yuv-chroma=
 
-# YUV4MPEG2 header (default disabled) (boolean)
+# Add a YUV4MPEG2 header (boolean)
 #yuv-yuv4mpeg2=0
 
 [xcb_window] # X11 video window (XCB)
@@ -1696,7 +1722,7 @@ avcodec-hw=vdpau_avcodec
 [compressor] # Dynamic range compressor
 
 # RMS/peak (float)
-#compressor-rms-peak=0.000000
+#compressor-rms-peak=0.200000
 
 # Attack time (float)
 #compressor-attack=25.000000
@@ -1708,10 +1734,10 @@ avcodec-hw=vdpau_avcodec
 #compressor-threshold=-11.000000
 
 # Ratio (float)
-#compressor-ratio=8.000000
+#compressor-ratio=4.000000
 
 # Knee radius (float)
-#compressor-knee=2.500000
+#compressor-knee=5.000000
 
 # Makeup gain (float)
 #compressor-makeup-gain=7.000000
@@ -1764,6 +1790,20 @@ avcodec-hw=vdpau_avcodec
 # Normalize channels (boolean)
 #aout-remap-normalize=1
 
+[scaletempo_pitch] # Pitch Shifter
+
+# Stride Length (integer)
+#scaletempo-stride=30
+
+# Overlap Length (float)
+#scaletempo-overlap=0.200000
+
+# Search Length (integer)
+#scaletempo-search=14
+
+# Pitch Shift (float)
+#pitch-shift=0.000000
+
 [equalizer] # Equalizer with 10 bands
 
 # Equalizer preset (string)
@@ -1801,16 +1841,16 @@ avcodec-hw=vdpau_avcodec
 [stereo_widen] # Simple stereo widening effect
 
 # Delay time (float)
-#delay=20.000000
+#stereowiden-delay=20.000000
 
 # Feedback gain (float)
-#feedback=0.300000
+#stereowiden-feedback=0.300000
 
 # Crossfeed (float)
-#crossfeed=0.300000
+#stereowiden-crossfeed=0.300000
 
 # Dry mix (float)
-#dry-mix=0.800000
+#stereowiden-dry-mix=0.800000
 
 [mono] # Stereo to mono downmixer
 
@@ -1861,7 +1901,7 @@ avcodec-hw=vdpau_avcodec
 # Freq 3 Q (float)
 #param-eq-q3=3.000000
 
-[headphone_channel_mixer] # Headphone virtual spatialization effect
+[headphone] # Headphone virtual spatialization effect
 
 # Characteristic dimension (integer)
 #headphone-dim=10
@@ -1970,7 +2010,7 @@ alsa-gain=1.331000
 # Network master clock (boolean)
 #netsync-master=0
 
-# Master server ip address (string)
+# Master server IP address (string)
 #netsync-master-ip=
 
 # UDP timeout (in ms) (integer)
@@ -1989,6 +2029,14 @@ alsa-gain=1.331000
 
 # Advanced options (string)
 #sout-avformat-options=
+
+[h26x] # H264 video demuxer
+
+# Frames per Second (float)
+#h264-fps=0.000000
+
+# Frames per Second (float)
+#hevc-fps=0.000000
 
 [image] # Image demuxer
 
@@ -2026,6 +2074,23 @@ alsa-gain=1.331000
 
 # Subtitle description (string)
 #sub-description=
+
+[adaptive] # Unified adaptive streaming for DASH/HLS
+
+# Adaptive Logic (string)
+#adaptive-logic=
+
+# Maximum device width (integer)
+#adaptive-maxwidth=0
+
+# Maximum device height (integer)
+#adaptive-maxheight=0
+
+# Fixed Bandwidth in KiB/s (integer)
+#adaptive-bw=250
+
+# Use regular HTTP modules (boolean)
+#adaptive-use-access=0
 
 [demuxdump] # File dumper
 
@@ -2065,11 +2130,6 @@ alsa-gain=1.331000
 # Show shoutcast adult content (boolean)
 #shoutcast-show-adult=0
 
-[hevc] # HEVC/H.265 video demuxer
-
-# Frames per Second (float)
-#hevc-force-fps=0.000000
-
 [rawvid] # Raw video demuxer
 
 # Frames per Second (string)
@@ -2093,6 +2153,9 @@ alsa-gain=1.331000
 #es-fps=25.000000
 
 [ts] # MPEG Transport Stream demuxer
+
+# Digital TV Standard (string)
+#ts-standard=auto
 
 # Extra PMT (string)
 #ts-extra-pmt=
@@ -2118,6 +2181,9 @@ alsa-gain=1.331000
 # Seek based on percent not time (boolean)
 #ts-seek-percent=0
 
+# Check packets continuity counter (boolean)
+#ts-cc-check=1
+
 [vc1] # VC1 video demuxer
 
 # Frames per Second (float)
@@ -2141,31 +2207,31 @@ alsa-gain=1.331000
 # Hurry up (boolean)
 #rawdv-hurry-up=0
 
-[h264] # H264 video demuxer
+[mp4] # MP4 stream demuxer
 
-# Frames per Second (float)
-#h264-fps=25.000000
+# M4A audio only (boolean)
+#mp4-m4a-audioonly=0
 
 [diracsys] # Dirac video demuxer
 
 # Value to adjust dts by (integer)
 #dirac-dts-offset=0
 
-[packetizer_mpegvideo] # MPEG-I/II video packetizer
+[mpegvideo] # MPEG-I/II video packetizer
 
 # Sync on Intra Frame (boolean)
 #packetizer-mpegvideo-sync-iframe=0
 
-[dash] # Dynamic Adaptive Streaming over HTTP
+[prefetch] # Stream prefetch filter
 
-# Preferred Width (integer)
-#dash-prefwidth=480
+# Buffer size (integer)
+#prefetch-buffer-size=16384
 
-# Preferred Height (integer)
-#dash-prefheight=360
+# Read size (integer)
+#prefetch-read-size=16384
 
-# Buffer Size (Seconds) (integer)
-#dash-buffersize=30
+# Seek threshold (integer)
+#prefetch-seek-threshold=16384
 
 [avio] # libavformat AVIO access
 
@@ -2201,44 +2267,13 @@ alsa-gain=1.331000
 # RTP payload format assumed for dynamic payloads (string)
 #rtp-dynamic-pt=
 
-[http] # HTTP input
+[access] # HTTPS input
 
-# HTTP proxy (string)
-#http-proxy=
-
-# HTTP proxy password (string)
-#http-proxy-pwd=
-
-# HTTP referer value (string)
-#http-referrer=
-
-# User Agent (string)
-#http-user-agent=
-
-# Auto re-connect (boolean)
-#http-reconnect=0
-
-# Continuous stream (boolean)
-#http-continuous=0
-
-# Forward Cookies (boolean)
+# Cookies forwarding (boolean)
 #http-forward-cookies=1
 
-[vdr] # VDR recordings
-
-# Chapter offset in ms (integer)
-#vdr-chapter-offset=0
-
-# Frame rate (float)
-#vdr-fps=25.000000
-
-[dvb] # DVB input with v4l2 support
-
-# Probe DVB card for capabilities (boolean)
-#dvb-probe=1
-
-# Satellite scanning config (string)
-#dvb-satellite=
+# User agent (string)
+#http-user-agent=
 
 [imem] # Memory input
 
@@ -2277,6 +2312,33 @@ alsa-gain=1.331000
 
 # Size (integer)
 #imem-size=0
+
+[http] # HTTP input
+
+# Auto re-connect (boolean)
+#http-reconnect=0
+
+[vdr] # VDR recordings
+
+# Chapter offset in ms (integer)
+#vdr-chapter-offset=0
+
+# Frame rate (float)
+#vdr-fps=25.000000
+
+[dvb] # DVB input with v4l2 support
+
+# Probe DVB card for capabilities (boolean)
+#dvb-probe=1
+
+# Satellite scanning config (string)
+#dvb-satellite=
+
+# Scan tuning list (string)
+#dvb-scanlist=
+
+# Use NIT for scanning services (boolean)
+#dvb-scan-nit=1
 
 [dtv] # Digital Television and Radio
 
@@ -2376,7 +2438,7 @@ alsa-gain=1.331000
 # Polarization (Voltage) (string)
 #dvb-polarization=
 
-# ? (integer)
+#  (integer)
 #dvb-voltage=13
 
 # High LNB voltage (boolean)
@@ -2402,19 +2464,19 @@ alsa-gain=1.331000
 
 [ftp] # FTP input
 
-# FTP user name (string)
-#ftp-user=anonymous
+# Username (string)
+#ftp-user=
 
-# FTP password (string)
-#ftp-pwd=anonymous@example.com
+# Password (string)
+#ftp-pwd=
 
 # FTP account (string)
 #ftp-account=anonymous
 
 [udp] # UDP input
 
-# Receive buffer (integer)
-#udp-buffer=4194304
+# UDP Source timeout (sec) (integer)
+#udp-timeout=-1
 
 [xcb_screen] # Screen capture (with X11/XCB)
 
@@ -2450,6 +2512,11 @@ alsa-gain=1.331000
 # Frame buffer height (integer)
 #shm-height=480
 
+[concat] # Concatenated inputs
+
+# Inputs list (string)
+#concat-list=
+
 [timecode] # Time code subpicture elementary stream generator
 
 # Frame rate (string)
@@ -2465,14 +2532,8 @@ alsa-gain=1.331000
 
 [filesystem] # File input
 
-# Subdirectory behavior (string)
-#recursive=expand
-
-# Ignored extensions (string)
-#ignore-filetypes=m3u,db,nfo,ini,jpg,jpeg,ljpg,gif,png,pgm,pgmyuv,pbm,pam,tga,bmp,pnm,xpm,xcf,pcx,tif,tiff,lbm,sfv,txt,sub,idx,srt,cue,ssa
-
-# Directory sort order (string)
-#directory-sort=collate
+# List special files (boolean)
+#list-special-files=0
 
 [access_mms] # Microsoft Media Server (MMS) input
 
@@ -2485,8 +2546,16 @@ alsa-gain=1.331000
 # Maximum bitrate (integer)
 #mms-maxbitrate=0
 
-# HTTP proxy (string)
-#mmsh-proxy=
+[satip] # SAT>IP Receiver Plugin
+
+# Receive buffer (integer)
+#satip-buffer=4194304
+
+# Request multicast stream (boolean)
+#satip-multicast=0
+
+# Host (string)
+#satip-host=
 
 [core] # core program
 
@@ -2502,7 +2571,7 @@ alsa-gain=1.331000
 # Remember the audio volume (boolean)
 #volume-save=1
 
-# Use S/PDIF when available (boolean)
+# Force S/PDIF support (boolean)
 #spdif=0
 
 # Force detection of Dolby Surround (integer)
@@ -2513,9 +2582,6 @@ alsa-gain=1.331000
 
 # Audio desynchronization compensation (integer)
 #audio-desync=0
-
-# Audio resampler (string)
-#audio-resampler=
 
 # Replay gain mode (string)
 #audio-replay-gain-mode=none
@@ -2535,11 +2601,17 @@ alsa-gain=1.331000
 # Audio output module (string)
 #aout=
 
+# Media role (string)
+#role=video
+
 # Audio filters (string)
 #audio-filter=
 
 # Audio visualizations (string)
 #audio-visual=none
+
+# Audio resampler (string)
+#audio-resampler=
 
 # Enable video (boolean)
 #video=1
@@ -2571,13 +2643,10 @@ alsa-gain=1.331000
 # Mouse events (boolean)
 #mouse-events=1
 
-# Overlay video output (boolean)
-#overlay=1
-
 # Always on top (boolean)
 #video-on-top=0
 
-# Enable wallpaper mode  (boolean)
+# Enable wallpaper mode (boolean)
 #video-wallpaper=0
 
 # Disable screensaver (boolean)
@@ -2640,9 +2709,6 @@ alsa-gain=1.331000
 # Video Auto Scaling (boolean)
 #autoscale=1
 
-# Video scaling factor (float)
-#scale=1.000000
-
 # Monitor pixel aspect ratio (string)
 #monitor-par=
 
@@ -2665,13 +2731,13 @@ alsa-gain=1.331000
 #zoom=1.000000
 
 # Deinterlace (integer)
-#deinterlace=0
+#deinterlace=-1
 
 # Deinterlace mode (string)
-#deinterlace-mode=blend
+#deinterlace-mode=auto
 
 # Video output module (string)
-vout=vdpau_display
+vout=any
 
 # Video filter module (string)
 #video-filter=
@@ -2736,6 +2802,9 @@ vout=vdpau_display
 # Subtitle track ID (integer)
 #sub-track-id=-1
 
+# Preferred Closed Captions decoder (integer)
+#captions=608
+
 # Preferred video resolution (integer)
 #preferred-resolution=-1
 
@@ -2772,9 +2841,6 @@ vout=vdpau_display
 # VCD device (string)
 #vcd=/dev/sr0
 
-# Audio CD device (string)
-#cd-audio=/dev/sr0
-
 # MTU of the network interface (integer)
 #mtu=1400
 
@@ -2801,12 +2867,6 @@ vout=vdpau_display
 
 # HTTP/TLS server private key (string)
 #http-key=
-
-# HTTP/TLS Certificate Authority (string)
-#http-ca=
-
-# HTTP/TLS Certificate Revocation List (string)
-#http-crl=
 
 # SOCKS server (string)
 #socks=
@@ -2865,7 +2925,7 @@ vout=vdpau_display
 # Network synchronisation (boolean)
 #network-synchronisation=0
 
-# Record directory or filename (string)
+# Record directory (string)
 #input-record-path=
 
 # Prefer native stream recording (boolean)
@@ -2879,6 +2939,9 @@ vout=vdpau_display
 
 # Change title according to current media (string)
 #input-title-format=$Z
+
+# Disable all lua plugins (boolean)
+#lua=1
 
 # Preferred decoders list (string)
 #codec=
@@ -2894,6 +2957,9 @@ vout=vdpau_display
 
 # Stream filter module (string)
 #stream-filter=
+
+# Demux filter module (string)
+#demux-filter=
 
 # Default stream output chain (string)
 #sout=
@@ -2949,6 +3015,12 @@ vout=vdpau_display
 # Use a plugins cache (boolean)
 #plugins-cache=1
 
+# Scan for new plugins (boolean)
+#plugins-scan=1
+
+# Preferred keystore list (string)
+#keystore=
+
 # Allow real-time priority (boolean)
 #rt-priority=0
 
@@ -2973,6 +3045,9 @@ vout=vdpau_display
 # Play and pause (boolean)
 #play-and-pause=0
 
+# Start paused (boolean)
+#start-paused=0
+
 # Auto start (boolean)
 #playlist-autostart=1
 
@@ -2988,11 +3063,23 @@ vout=vdpau_display
 # Default stream (string)
 #open=
 
-# Automatically preparse files (boolean)
+# Automatically preparse items (boolean)
 #auto-preparse=1
+
+# Preparsing timeout (integer)
+#preparse-timeout=5000
 
 # Allow metadata network access (boolean)
 metadata-network-access=1
+
+# Subdirectory behavior (string)
+#recursive=collapse
+
+# Ignored extensions (string)
+#ignore-filetypes=m3u,db,nfo,ini,jpg,jpeg,ljpg,gif,png,pgm,pgmyuv,pbm,pam,tga,bmp,pnm,xpm,xcf,pcx,tif,tiff,lbm,sfv,txt,sub,idx,srt,cue,ssa
+
+# Show hidden files (boolean)
+#show-hiddenfiles=0
 
 # Services discovery modules (string)
 #services-discovery=
@@ -3002,12 +3089,6 @@ metadata-network-access=1
 
 # Write process id to file (string)
 #pidfile=
-
-# Log to file (boolean)
-#file-logging=0
-
-# Log to syslog (boolean)
-#syslog=0
 
 # Show advanced options (boolean)
 #advanced=0
@@ -3027,8 +3108,11 @@ metadata-network-access=1
 # Control interfaces (string)
 #control=
 
-# MouseWheel up-down axis Control (integer)
-#hotkeys-mousewheel-mode=0
+# Mouse wheel vertical axis control (integer)
+#hotkeys-y-wheel-mode=0
+
+# Mouse wheel horizontal axis control (integer)
+#hotkeys-x-wheel-mode=2
 
 # Fullscreen (string)
 #global-key-toggle-fullscreen=
@@ -3324,6 +3408,12 @@ metadata-network-access=1
 # Cycle through audio devices (string)
 #key-audiodevice-cycle=Shift+a
 
+# Cycle subtitle track in reverse order (string)
+#global-key-subtitle-revtrack=
+
+# Cycle subtitle track in reverse order (string)
+#key-subtitle-revtrack=Alt+v
+
 # Cycle subtitle track (string)
 #global-key-subtitle-track=
 
@@ -3498,6 +3588,30 @@ metadata-network-access=1
 # Normal/Loop/Repeat (string)
 #key-loop=l
 
+# Shrink the viewpoint field of view (360°) (string)
+#global-key-viewpoint-fov-in=
+
+# Shrink the viewpoint field of view (360°) (string)
+#key-viewpoint-fov-in=Page Up
+
+# Expand the viewpoint field of view (360°) (string)
+#global-key-viewpoint-fov-out=
+
+# Expand the viewpoint field of view (360°) (string)
+#key-viewpoint-fov-out=Page Down
+
+# Roll the viewpoint clockwise (360°) (string)
+#global-key-viewpoint-roll-clock=
+
+# Roll the viewpoint clockwise (360°) (string)
+#key-viewpoint-roll-clock=
+
+# Roll the viewpoint anti-clockwise (360°) (string)
+#global-key-viewpoint-roll-anticlock=
+
+# Roll the viewpoint anti-clockwise (360°) (string)
+#key-viewpoint-roll-anticlock=
+
 # 1:4 Quarter (string)
 #global-key-zoom-quarter=
 
@@ -3659,6 +3773,24 @@ metadata-network-access=1
 
 # Clear the playlist (string)
 #key-clear-playlist=Ctrl+w
+
+# Reset subtitles text scale (string)
+#global-key-subtitle-text-scale-normal=
+
+# Reset subtitles text scale (string)
+#key-subtitle-text-scale-normal=Ctrl+0
+
+# Scale down subtitles text (string)
+#global-key-subtitle-text-scale-up=
+
+# Scale down subtitles text (string)
+#key-subtitle-text-scale-up=Ctrl+Mouse Wheel Up
+
+# Scale up subtitles text (string)
+#global-key-subtitle-text-scale-down=
+
+# Scale up subtitles text (string)
+#key-subtitle-text-scale-down=Ctrl+Mouse Wheel Down
 
 # Playlist bookmark 1 (string)
 #bookmark1=
