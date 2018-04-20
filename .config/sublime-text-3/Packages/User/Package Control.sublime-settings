@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"Angular CLI",
+		"ColorSchemeEditor",
+		"Colorsublime",
+		"Git",
+		"GitOpenChangedFiles",
+		"Go To Definition",
+		"Godef",
+		"GoImports",
+		"Golang Build",
+		"GoOracle",
+		"HTMLBeautify",
+		"INI",
+		"jQuery",
+		"Package Control",
+		"Resize Group with Keyboard",
+		"Statusbar Path",
+		"SublimeLinter-golint",
+		"Theme - Numix",
+		"Theme - Soda",
+		"TOML",
+		"TypeScript"
+	]
+}

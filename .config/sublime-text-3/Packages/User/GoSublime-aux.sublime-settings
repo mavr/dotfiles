@@ -1,0 +1,14 @@
+{
+	"9o.hist./home/mavr/.config/sublime-text-3/Packages/GoSublime":
+	[
+		"go build auth.go ;"
+	],
+	"9o.hist./source/go/src/bitbacket.org/gamesrock/game_server/auth":
+	[
+		"help ;",
+		"go build ;"
+	],
+	"ann": "a18.03.05-1",
+	"install_version": "r18.03.05-1",
+	"version": "r18.03.05-1"
+}
