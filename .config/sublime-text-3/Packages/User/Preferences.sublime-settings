@@ -2,6 +2,10 @@
 	"GOPATH": "$HOME/Code/go",
 	"color_scheme": "Packages/Colorsublime - Themes/Carbonight.tmTheme",
 	"default_line_ending": "unix",
+	"folder_exclude_patterns":
+	[
+		"node_modules"
+	],
 	"font_face": "Deja Vu Sans Mono",
 	"font_size": 10,
 	"ignored_packages":

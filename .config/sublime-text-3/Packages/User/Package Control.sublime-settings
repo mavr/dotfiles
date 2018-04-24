@@ -6,7 +6,7 @@
 	"installed_packages":
 	[
 		"1337 Color Scheme",
-		"Angular CLI",
+		"Babel",
 		"ColorSchemeEditor",
 		"Colorsublime",
 		"Git",
@@ -16,9 +16,12 @@
 		"GoImports",
 		"Golang Build",
 		"GoOracle",
+		"HTML5",
 		"HTMLBeautify",
 		"INI",
 		"jQuery",
+		"jQueryDocs",
+		"JSX",
 		"Package Control",
 		"Resize Group with Keyboard",
 		"Statusbar Path",

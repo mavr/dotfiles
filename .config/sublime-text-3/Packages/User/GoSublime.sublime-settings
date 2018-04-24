@@ -55,7 +55,7 @@
 	// ipc_timeout sets the maximum amount of time time in seconds to wait for a blocking ipc call to MarGo.
 	// Due to limitations in Sublime Text, fmt cannot be done without freezing Sublime Text.
 	// If you use the `fmt_cmd` setting above with a command that is slow like `goimports` you should increase this value.
-	"ipc_timeout": 1,
+	"ipc_timeout": 3,
 
 	// Whether or not gslint is enabled
 	"gslint_enabled": true,
