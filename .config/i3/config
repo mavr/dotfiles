@@ -62,6 +62,8 @@ workspace 7 gaps inner 5
 workspace 7 gaps outer 5
 workspace 8 gaps inner 5
 workspace 8 gaps outer 5
+workspace 10 gaps inner 5
+workspace 10 gaps outer 5
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -196,8 +198,6 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
-		
-		bindsym f			resize grow height 800 px
 
         # Pressing left will shrink the window’s width.
         # Pressing right will grow the window’s width.
