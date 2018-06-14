@@ -5,6 +5,7 @@ import os
 import platform
 import sys
 import json
+from collections import deque
 
 
 def real_path(go_path):
@@ -26,13 +27,13 @@ class GodefCommand(sublime_plugin.WindowCommand):
         self.goroot = None
         self.cmdpaths = []
         self.env = None
+        self.gosublime = {}
+        self.read_gosublime(window)
 
         default_setting = sublime.load_settings("Preferences.sublime-settings")
         default_setting.set("default_line_ending", "unix")
-        settings = sublime.load_settings("Godef.sublime-settings")
-        gopath = real_path(settings.get("gopath", os.getenv('GOPATH')))
-        goroot = real_path(settings.get("goroot", os.getenv('GOROOT')))
-
+        gopath = self._gopath()
+        goroot = self._goroot()
         self.load(gopath, goroot, self.systype)
         self.gopath = gopath
         self.goroot = goroot
@@ -193,5 +194,66 @@ to install them.')
             else:
                 position = definition['objpos']
         print("[Godef]INFO: opening definition at %s" % position)
-        view = self.window.open_file(position, sublime.ENCODED_POSITION)
+        self.window.open_file(position, sublime.ENCODED_POSITION)
+        # record prev postion
+        startrow, startcol = view.rowcol(select_begin)
+        GodefPrevCommand.append(filename, startrow, startcol)
         print("=================[Godef] End =================")
+
+    def read_gosublime(self, window):
+        """
+        reads environment variables from gosublime.
+        """
+        view = window.active_view()
+        if view is not None:
+            settings = view.settings()
+            gosublime = settings.get("GoSublime", None)
+            if gosublime and gosublime.get("env", None):
+                env = gosublime.get("env")
+                print("[Godef]INFO: found gosublime environment: {env}".format(env=env))
+                self.gosublime["gopath"] = env.get("GOPATH", "")
+                self.gosublime["goroot"] = env.get("GOROOT", "")
+
+    def _gopath(self):
+        settings = sublime.load_settings("Godef.sublime-settings")
+        gopath = real_path(settings.get("gopath", os.getenv('GOPATH')))
+        if gopath is None:
+            return self.gosublime.get("gopath", "")
+        return gopath
+
+    def _goroot(self):
+        settings = sublime.load_settings("Godef.sublime-settings")
+        goroot = real_path(settings.get("goroot", os.getenv('GOROOT')))
+        if goroot is None:
+            return self.gosublime.get("goroot", "")
+        return goroot
+
+
+# GodefPrev Commands
+# code based on https://github.com/SublimeText/CTags/blob/development/ctagsplugin.py
+class GodefPrevCommand(sublime_plugin.WindowCommand):
+    """
+    Provide ``godef_back`` command.
+
+    Command "godef jump back" to the previous code point before a godef was navigated.
+
+    This is functionality supported natively by ST3 but not by ST2. It is
+    therefore included for legacy purposes.
+    """
+    buf = deque(maxlen=100)  # virtually a "ring buffer"
+
+    def run(self):
+        if not self.buf:
+            print("[GodefPrev]ERROR: GodefPrev buffer empty")
+            return
+
+        filename, startrow, startcol = self.buf.pop()
+        path = "{0}:{1}:{2}".format(filename, startrow +1, startcol + 1)
+        self.window.open_file(path, sublime.ENCODED_POSITION)
+        print("[GodefPrev]INFO: jump prev definition at %s" % path)
+
+    @classmethod
+    def append(cls, filename, startrow, startcol):
+        """Append a code point to the list"""
+        if filename:
+            cls.buf.append((filename, startrow, startcol))

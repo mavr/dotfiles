@@ -1,11 +1,16 @@
 {
 	"folder_history":
 	[
-		"/home/mavr/Code/web/react-firebase",
-		"/home/mavr/Code/web/evotor",
+		"/home/mavr/Code/web/routes",
 		"/home/mavr/Code/web",
-		"/home/mavr/Code/web/evotor-gulp",
+		"/home/mavr/Code/web/react-firebase",
+		"/home/mavr/Code/go/src/github.com/mavr/skidon-backend",
+		"/home/mavr/Code/web/light-bootstrap-dashboard-react",
+		"/home/mavr/Code/web/default-react-app",
 		"/home/mavr/Code/web/dropcard-website",
+		"/home/mavr/Code/web/react-redux-firebase-authentication",
+		"/home/mavr/Code/web/evotor",
+		"/home/mavr/Code/web/evotor-gulp",
 		"/home/mavr/Code/go/src/github.com/mavr/xmaschain",
 		"/home/mavr/Code/go/src/github.com/armor5games/goarmor",
 		"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver",
@@ -44,18 +49,122 @@
 		"/home/mavr/go/src/gitlab.com/armor5games/gribiserver",
 		"/home/mavr/go/src/gitlab.com/armor5games"
 	],
-	"last_version": 3143,
-	"last_window_id": 118,
+	"last_version": 3176,
+	"last_window_id": 128,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1037.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"inde",
+						"indexRoutes"
+					],
+					[
+						"Si",
+						"SignInPage"
+					],
+					[
+						"side",
+						"sidebar-sticky"
+					],
+					[
+						"conten",
+						"content"
+					],
+					[
+						"Hom",
+						"HomePage"
+					],
+					[
+						"auth",
+						"authUser"
+					],
+					[
+						"err",
+						"errorHappens"
+					],
+					[
+						"signin",
+						"signinInputEmail"
+					],
+					[
+						"signinIn",
+						"signinInputPasswd"
+					],
+					[
+						"inpu",
+						"inputPasswordErrorClass"
+					],
+					[
+						"has",
+						"has-error"
+					],
+					[
+						"inp",
+						"inputEmailError"
+					],
+					[
+						"isIn",
+						"isInputEmailValid"
+					],
+					[
+						"on",
+						"onInputChange"
+					],
+					[
+						"di",
+						"div"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"login",
+						"login-page-bttn"
+					],
+					[
+						"onCh",
+						"onChangeEmail"
+					],
+					[
+						"hide",
+						"hidden"
+					],
+					[
+						"bl",
+						"inline-block"
+					],
+					[
+						"align",
+						"text-align"
+					],
+					[
+						"margin",
+						"margin-top"
+					],
+					[
+						"class",
+						"className"
+					],
+					[
+						"compoen",
+						"Component"
+					],
+					[
+						"ha",
+						"handleSubmit"
+					],
+					[
+						"su",
+						"submit\t.submit()"
+					],
 					[
 						"bro",
 						"browser-sync"
@@ -91,10 +200,6 @@
 					[
 						"use",
 						"UserCraft\tstruct ʈ"
-					],
-					[
-						"err",
-						"errUserCraft\tstring ʈ"
 					],
 					[
 						"lo",
@@ -467,106 +572,6 @@
 					[
 						"app",
 						"appConfig\t*goarmorconfigs.Config ν"
-					],
-					[
-						"U",
-						"URL\t*url.URL ν"
-					],
-					[
-						"u",
-						"RequestURI\tstring ν"
-					],
-					[
-						"Pi",
-						"Printf\tn int, err error ƒ"
-					],
-					[
-						"Unm",
-						"UnmarshalJSON\terror ƒ"
-					],
-					[
-						"ctx",
-						"ctxkey\t package ρ"
-					],
-					[
-						"tok",
-						"tokenString\tstring ν"
-					],
-					[
-						"Va",
-						"Val2\tstring ν"
-					],
-					[
-						"Info",
-						"Infoln\t ƒ"
-					],
-					[
-						"b",
-						"backgroundSelected\tmethod"
-					],
-					[
-						"he",
-						"height\tAttr"
-					],
-					[
-						"di",
-						"div\tTag"
-					],
-					[
-						"e",
-						"getUser\t*bhgmodels.User ƒ"
-					],
-					[
-						"bhg",
-						"bhghandlerslogin\t package ρ"
-					],
-					[
-						"bhghan",
-						"bhghandlerslogin\t package ρ"
-					],
-					[
-						"pus",
-						"PurchaseToken\tstring ν"
-					],
-					[
-						"an",
-						"ansible"
-					],
-					[
-						"dep",
-						"deployPrepareLogin"
-					],
-					[
-						"h",
-						"hello"
-					],
-					[
-						"p",
-						"Printf\tn int, err error ƒ"
-					],
-					[
-						"d",
-						"decore\t[]byte ν"
-					],
-					[
-						"bghha",
-						"bhghandlersshard\t package ρ"
-					],
-					[
-						"Han",
-						"HandleFunc\t ƒ"
-					],
-					[
-						"Hand",
-						"Handler\tinterface ¡"
-					],
-					[
-						"St",
-						"StaticStorage\tstring, error ƒ"
-					],
-					[
-						"cache",
-						"cacheStatics\t*bhgcachestatics.Data ν"
 					]
 				]
 			},
@@ -612,16 +617,16 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 375.0,
-				"last_filter": "v",
+				"height": 125.0,
+				"last_filter": "vm",
 				"selected_items":
 				[
 					[
-						"v",
+						"vm",
 						"View: Toggle Menu"
 					],
 					[
-						"vm",
+						"v",
 						"View: Toggle Menu"
 					],
 					[
@@ -742,6 +747,44 @@
 			},
 			"file_history":
 			[
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/Cabinet/index.jsx",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/registerServiceWorker.js",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/routes/index.jsx",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/components/SignIn/index.css",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/components/SignIn/index.jsx",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/public/index.html",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/components/Header/HeaderLinks.jsx",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/components/Header/Header.jsx",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/layouts/Dashboard/Dashboard.jsx",
+				"/home/mavr/Code/web/light-bootstrap-dashboard-react/src/components/Sidebar/Sidebar.jsx",
+				"/home/mavr/Downloads/bootstrap-4.0.0/docs/4.0/examples/dashboard/index.html",
+				"/home/mavr/Downloads/React App Statistic.html",
+				"/home/mavr/Code/web/react-firebase/src/component/home/header/index.css",
+				"/home/mavr/Code/web/react-firebase/src/index.js",
+				"/home/mavr/Code/web/react-firebase/package.json",
+				"/home/mavr/Code/web/react-firebase/src/component/header.js",
+				"/home/mavr/Code/web/react-firebase/src/reducer/session.js",
+				"/home/mavr/Code/web/react-firebase/src/App.css",
+				"/home/mavr/Code/web/react-firebase/src/App.js",
+				"/home/mavr/Code/web/default-react-app/src/index.css",
+				"/home/mavr/Code/web/react-firebase/src/component/app/index.css",
+				"/home/mavr/Code/web/react-firebase/src/component/app/index.js",
+				"/home/mavr/Code/web/react-firebase/public/index.css",
+				"/home/mavr/Code/web/react-firebase/public/index.html",
+				"/home/mavr/Code/web/default-react-app/src/index.js",
+				"/home/mavr/Code/web/react-firebase/src/index.css",
+				"/home/mavr/Code/web/react-firebase/src/constants/routes.js",
+				"/home/mavr/Code/web/react-firebase/src/firebase/auth.js",
+				"/home/mavr/Code/web/react-firebase/src/firebase/index.js",
+				"/home/mavr/Code/web/react-firebase/src/firebase/firebase.js",
+				"/home/mavr/Code/web/react-firebase/src/component/session/auth.js",
+				"/home/mavr/Code/web/react-firebase/src/router.js",
+				"/home/mavr/Code/web/react-firebase/src/reducer/index.js",
+				"/home/mavr/Code/web/react-firebase/src/reducer/user.js",
+				"/home/mavr/Code/web/react-firebase/src/component/app/app.js",
+				"/home/mavr/Code/web/react-firebase/src/store/index.js",
+				"/home/mavr/Code/web/react-firebase/src/header.js",
+				"/home/mavr/Code/web/evotor-gulp/app/js/react-fire.sublime-project",
 				"/home/mavr/Code/web/evotor-gulp/app/js/common.js",
 				"/home/mavr/Code/web/evotor-gulp/app/index.html",
 				"/home/mavr/Code/web/evotor/server.js",
@@ -831,49 +874,11 @@
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpsrv/logger.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogs/logger.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_dal.go",
-				"/home/mavr/bhg/main.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_decore.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_get_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_quest.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/data.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_set_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/cache_inst.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpsrv/errors.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/new.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_credential_checksum_loginsrv.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/user_session_create_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_errors.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/save_checksum_salt_for_user_secret_mw.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlers/body_checksum_required_mw.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_secret_shardsrv_crud.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttpquerystrings/keys.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachelogin/keys.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/repo.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/quest.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgconfigs/server_type.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgconfigs/config.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/tree.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/mux.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/craft_clear_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/storage_clear_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_contest_helpers.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachelogin/gamers.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/gamer.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/rating_add_rating_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_rating_helpers.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_rating.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpsrv/srv_conn.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/_examples/rest/routes.json",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1519724447_fat_server.up.sql",
-				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/README.md",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/rophandlersshard/user_google_payment.go",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/rophandlerslogin/vk_payments.go",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/rophandlersshard/user_apple_payment.go",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/avatar/units.go"
+				"/home/mavr/bhg/main.go"
 			],
 			"find":
 			{
-				"height": 37.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -887,6 +892,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"onSubmit",
+					"auth",
+					"das",
+					"creati"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -909,7 +918,7 @@
 			{
 				"height": 35.0
 			},
-			"menu_visible": true,
+			"menu_visible": false,
 			"output.9o:///home/mavr/.config/sublime-text-3/Packages/GoSublime":
 			{
 				"height": 108.0
@@ -974,6 +983,38 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"with",
+						"src/layouts/Auth/withAuthorization.js"
+					],
+					[
+						"das",
+						"src/layouts/Dashboard/Dashboard.jsx"
+					],
+					[
+						"signin",
+						"src/components/SignIn/index.jsx"
+					],
+					[
+						"rou",
+						"src/router.js"
+					],
+					[
+						"index.css",
+						"src/component/home/index.css"
+					],
+					[
+						"pa",
+						"package.json"
+					],
+					[
+						"store",
+						"src/store/index.js"
+					],
+					[
+						"ap",
+						"src/App.js"
+					],
 					[
 						"inde",
 						"app/index.html"
@@ -1361,7 +1402,7 @@
 				[
 					[
 						"",
-						"~/Code/go/src/github.com/mavr/leetcode/xmaschain.sublime-project"
+						"~/Code/go/src/gitlab.com/armor5games/bhgserver/bhgserver.sublime-project"
 					]
 				],
 				"width": 380.0
@@ -1385,7 +1426,7 @@
 			{
 			}
 		},
-		"new_window_width": 1920.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -1395,8 +1436,284 @@
 				"selected_items":
 				[
 					[
+						"u",
+						"unlock\t ƒ"
+					],
+					[
+						"userAnimalOri",
+						"UserAnimalOriginSet\tint, error ƒ"
+					],
+					[
+						"ani",
+						"animalOrigin\t[]*bhgmodels.UserCraft ν"
+					],
+					[
+						"UserC",
+						"GetUserCrafts\t[]*bhgmodels.UserCraft, int, error ƒ"
+					],
+					[
+						"Print",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"res",
+						"resourceDiamond\t[]bhgmodels.CommonResourceDiff ν"
+					],
+					[
+						"cons",
+						"ConstantModuleGetCostOfTimerSlotByTime\tbhgmodels.StaticConstantTimerCost, int, error ƒ"
+					],
+					[
+						"time",
+						"timer\tint64 ν"
+					],
+					[
+						"CraftS",
+						"CraftSpeedUpPayload\tstruct ʈ"
+					],
+					[
+						"curren",
+						"currentStore\tbhgmodels.StaticGeoObjectStore ν"
+					],
+					[
+						"a",
+						"aCrafts\t*finishedCraftsByID ν"
+					],
+					[
+						"fini",
+						"finishedAvatarByID\tstruct ʈ"
+					],
+					[
+						"avat",
+						"avatarCrafts\t*finishedCraftsByID ν"
+					],
+					[
+						"ava",
+						"avatarCrafts\trune ν"
+					],
+					[
+						"item",
+						"itemCraftsMap\t*tmpFinishedCraftsMap ν"
+					],
+					[
+						"cr",
+						"craftsMap\tmap[string]*tmpFinishedCraftsMap ν"
+					],
+					[
+						"Use",
+						"UserCrafts\t[]*bhgmodels.UserCraft ʈ"
+					],
+					[
+						"C",
+						"Crafts\tbhgmodels.UserCrafts ν"
+					],
+					[
+						"crf",
+						"craftsMap\tmap[string]struct ν"
+					],
+					[
+						"craf",
+						"craftsMap\tmap[string]struct ν"
+					],
+					[
 						"c",
-						"craftFinishedID\t[]int64 ν"
+						"Crafts\tbhgmodels.UserCrafts ν"
+					],
+					[
+						"cra",
+						"craftItem\t*bhgmodels.UserCraft ν"
+					],
+					[
+						"ite",
+						"craftItem\t*bhgmodels.UserCraft ν"
+					],
+					[
+						"User",
+						"UserCrafts\t[]*UserCraft ʈ"
+					],
+					[
+						"P",
+						"Post\t ƒ"
+					],
+					[
+						"with",
+						"WithStack\terror ƒ"
+					],
+					[
+						"cache",
+						"cacheHitCount\tint ν"
+					],
+					[
+						"newC",
+						"newCraftList\t[]*bhgmodels.UserCraft ν"
+					],
+					[
+						"UserRe",
+						"UserResource\tstruct ʈ"
+					],
+					[
+						"usercraft",
+						"userCrafts\t[]*bhgmodels.UserCraft ν"
+					],
+					[
+						"user",
+						"userResources\t[]*bhgmodels.UserResource ν"
+					],
+					[
+						"use",
+						"userResources\t[]*bhgmodels.UserResource ν"
+					],
+					[
+						"Prin",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"re",
+						"resource\t[]*bhgmodels.UserResource ν"
+					],
+					[
+						"userresourcege",
+						"userResourceGetByStaticID\t*bhgmodels.UserResource, int, error ƒ"
+					],
+					[
+						"userr",
+						"userResources\t[]*bhgmodels.UserResource ν"
+					],
+					[
+						"ne",
+						"NewDBTransactioner\ta5gdb.Transactioner ƒ"
+					],
+					[
+						"De",
+						"DeleteBuilder\tstruct ʈ"
+					],
+					[
+						"usercraftt",
+						"UserCraftTableName\t Ɩ"
+					],
+					[
+						"In",
+						"InsertBuilder\tstruct ʈ"
+					],
+					[
+						"userres",
+						"userResourceSellSurpluses\t[]*bhgmodels.UserResource, int, error ƒ"
+					],
+					[
+						"db",
+						"a5gdb\t package ρ"
+					],
+					[
+						"UserCraftT",
+						"UserCraftTableName\t Ɩ"
+					],
+					[
+						"d",
+						"dbP\ta5gdb.Pooler ν"
+					],
+					[
+						"Pr",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"pr",
+						"Printf\tn int, err error ƒ"
+					],
+					[
+						"pa",
+						"payloadAnimalOrigin\t[]*bhgmodels.UserCraft ν"
+					],
+					[
+						"cul",
+						"cultivationCraft\t[]*bhgmodels.UserCraft ν"
+					],
+					[
+						"us",
+						"userCraftSet\tint, error ƒ"
+					],
+					[
+						"int",
+						"int64\tbuilt-in ʈ"
+					],
+					[
+						"err",
+						"error\tinterface ¡"
+					],
+					[
+						"cur",
+						"currentReqParams\tapiRequestParamitrizer ν"
+					],
+					[
+						"ma",
+						"manufacture\t[]*bhgmodels.UserCraft ν"
+					],
+					[
+						"userMa",
+						"userManufactureSet\tint, error ƒ"
+					],
+					[
+						"cacheHi",
+						"cacheHitCount\t ν"
+					],
+					[
+						"manufa",
+						"manufactureCraftTimers\tmap[string][]int32 ν"
+					],
+					[
+						"UserCra",
+						"UserCraft\tstruct ʈ"
+					],
+					[
+						"cac",
+						"CacheInst\tstruct ʈ"
+					],
+					[
+						"Userc",
+						"UserCraft\tstruct ʈ"
+					],
+					[
+						"cach",
+						"cacheForUSecret\t*bhgcacheshardusers.CacheInst ν"
+					],
+					[
+						"Re",
+						"ResourceGetByStaticID\tbhgmodels.StaticResource, int, error ƒ"
+					],
+					[
+						"ResourceGe",
+						"UserResourceGetByStaticID\t*bhgmodels.UserResource, int, error ƒ"
+					],
+					[
+						"val",
+						"Value\tint64 ν"
+					],
+					[
+						"Va",
+						"Value\tint64 ν"
+					],
+					[
+						"JSON",
+						"JSONInternalServerError5100\terror ƒ"
+					],
+					[
+						"Spri",
+						"Sprintf\tstring ƒ"
+					],
+					[
+						"Js",
+						"JSONBadRequestError4100\terror ƒ"
+					],
+					[
+						"bhg",
+						"bhgmodels\t package ρ"
+					],
+					[
+						"Saveus",
+						"SaveUserCraftByID\terror ƒ"
+					],
+					[
+						"JSO",
+						"JSONBadRequestError4100\terror ƒ"
 					],
 					[
 						"craft",
@@ -1407,32 +1724,8 @@
 						"UserCraftTableName\t Ɩ"
 					],
 					[
-						"user",
-						"userCrafts\t[]*bhgmodels.UserCraft ν"
-					],
-					[
-						"C",
-						"Cultivation\tbhgmodels.StaticResourceCultivation ν"
-					],
-					[
 						"curre",
 						"currentRespParams\t*apiResponseParams ν"
-					],
-					[
-						"Re",
-						"ResourceGetByStaticID\tbhgmodels.StaticResource, int, error ƒ"
-					],
-					[
-						"cac",
-						"cacheHitCount\t ν"
-					],
-					[
-						"use",
-						"UserCraft\tstruct ʈ"
-					],
-					[
-						"err",
-						"errUserCraft\tstring ʈ"
 					],
 					[
 						"lo",
@@ -1511,10 +1804,6 @@
 						"KeyMapObjects\t Ɩ"
 					],
 					[
-						"cach",
-						"cacheWithStatics\t*bhgcachestatics.CacheRepo ν"
-					],
-					[
 						"sta",
 						"staticsPayload\t*bhgmodels.Statics ν"
 					],
@@ -1539,10 +1828,6 @@
 						"bhgmodels\t package ρ"
 					],
 					[
-						"ma",
-						"mapObj\tbhgmodels.MapObjects ν"
-					],
-					[
 						"MapOb",
 						"MapObjectCraft\tstruct ʈ"
 					],
@@ -1557,10 +1842,6 @@
 					[
 						"ca",
 						"CacheRepo\tstruct ʈ"
-					],
-					[
-						"Prin",
-						"Printf\tn int, err error ƒ"
 					],
 					[
 						"pri",
@@ -1583,10 +1864,6 @@
 						"UserResourceTableColumnGold\t Ɩ"
 					],
 					[
-						"UserRe",
-						"UserResourceTableName\t Ɩ"
-					],
-					[
 						"UserQ",
 						"UserQuestTableName\t Ɩ"
 					],
@@ -1597,10 +1874,6 @@
 					[
 						"UserS",
 						"UserStruct\tstruct ʈ"
-					],
-					[
-						"Pr",
-						"Println\tn int, err error ƒ"
 					],
 					[
 						"le",
@@ -1615,20 +1888,12 @@
 						"request\t*googlePaymentValidateBodyStd ν"
 					],
 					[
-						"P",
-						"Printf\tn int, err error ƒ"
-					],
-					[
 						"Pri",
 						"Printf\tn int, err error ƒ"
 					],
 					[
 						"Con",
 						"ConfigLog\tstruct ʈ"
-					],
-					[
-						"Print",
-						"Printf\t ƒ"
 					],
 					[
 						"vadim",
@@ -1663,10 +1928,6 @@
 						"RequestServer\tstruct ʈ"
 					],
 					[
-						"re",
-						"RequestReceiveMessage\t ƒ"
-					],
-					[
 						"RE",
 						"RequestTypeRECEIVEMSG\t ν"
 					],
@@ -1685,226 +1946,6 @@
 					[
 						"w",
 						"ws\t*websocket.Conn ν"
-					],
-					[
-						"Request",
-						"func (*RequestSendMessage)\tfunc (...) {...} ʂ"
-					],
-					[
-						"get",
-						"getElementById"
-					],
-					[
-						"pay",
-						"payload"
-					],
-					[
-						"text",
-						"text-message"
-					],
-					[
-						"load",
-						"load_contacts"
-					],
-					[
-						"R",
-						"RequestTypeSENDMSG\t ν"
-					],
-					[
-						"REQ",
-						"RequestTypeGETContacts\t ν"
-					],
-					[
-						"co",
-						"console"
-					],
-					[
-						"lis",
-						"list-group"
-					],
-					[
-						"list",
-						"list-group-item"
-					],
-					[
-						"send",
-						"send_message"
-					],
-					[
-						"st",
-						"strconv\t package ρ"
-					],
-					[
-						"COn",
-						"contacts\t[]string ν"
-					],
-					[
-						"na",
-						"naya_cli\t*ClientDBG ν"
-					],
-					[
-						"db",
-						"_debug_clients\tmap[string]*ClientDBG ν"
-					],
-					[
-						"so",
-						"socket"
-					],
-					[
-						"soc",
-						"socket_create"
-					],
-					[
-						"S",
-						"Sleep\t ƒ"
-					],
-					[
-						"Co",
-						"Conn\tstruct ʈ"
-					],
-					[
-						"rat",
-						"ratingList\t[4]RatingList ν"
-					],
-					[
-						"Ra",
-						"RatingList\tstruct ʈ"
-					],
-					[
-						"ra",
-						"ratingList\t[4]struct ν"
-					],
-					[
-						"ct",
-						"ctx\tcontext.Context ν"
-					],
-					[
-						"Ty",
-						"TypeOf\treflect.Type ƒ"
-					],
-					[
-						"T",
-						"TypeOf\treflect.Type ƒ"
-					],
-					[
-						"Find",
-						"FindId\t*mgo.Query ƒ"
-					],
-					[
-						"Upsert",
-						"UpsertId\tinfo *mgo.ChangeInfo, err error ƒ"
-					],
-					[
-						"O",
-						"ObjectId\tstring ʈ"
-					],
-					[
-						"app",
-						"appConfig\t*goarmorconfigs.Config ν"
-					],
-					[
-						"U",
-						"URL\t*url.URL ν"
-					],
-					[
-						"u",
-						"RequestURI\tstring ν"
-					],
-					[
-						"Pi",
-						"Printf\tn int, err error ƒ"
-					],
-					[
-						"Unm",
-						"UnmarshalJSON\terror ƒ"
-					],
-					[
-						"ctx",
-						"ctxkey\t package ρ"
-					],
-					[
-						"tok",
-						"tokenString\tstring ν"
-					],
-					[
-						"Va",
-						"Val2\tstring ν"
-					],
-					[
-						"Info",
-						"Infoln\t ƒ"
-					],
-					[
-						"b",
-						"backgroundSelected\tmethod"
-					],
-					[
-						"he",
-						"height\tAttr"
-					],
-					[
-						"di",
-						"div\tTag"
-					],
-					[
-						"e",
-						"getUser\t*bhgmodels.User ƒ"
-					],
-					[
-						"bhg",
-						"bhghandlerslogin\t package ρ"
-					],
-					[
-						"bhghan",
-						"bhghandlerslogin\t package ρ"
-					],
-					[
-						"pus",
-						"PurchaseToken\tstring ν"
-					],
-					[
-						"an",
-						"ansible"
-					],
-					[
-						"dep",
-						"deployPrepareLogin"
-					],
-					[
-						"h",
-						"hello"
-					],
-					[
-						"p",
-						"Printf\tn int, err error ƒ"
-					],
-					[
-						"d",
-						"decore\t[]byte ν"
-					],
-					[
-						"bghha",
-						"bhghandlersshard\t package ρ"
-					],
-					[
-						"Han",
-						"HandleFunc\t ƒ"
-					],
-					[
-						"Hand",
-						"Handler\tinterface ¡"
-					],
-					[
-						"St",
-						"StaticStorage\tstring, error ƒ"
-					],
-					[
-						"cache",
-						"cacheStatics\t*bhgcachestatics.Data ν"
-					],
-					[
-						"Cra",
-						"Crafts_payload\tstruct ʈ"
 					]
 				]
 			},
@@ -1914,87 +1955,70 @@
 					"file": "bhghttproutesshard/new.go",
 					"settings":
 					{
-						"buffer_size": 14064,
+						"buffer_size": 15876,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhghttphandlersshard/user_resources_get_hdlr.go",
+					"settings":
+					{
+						"buffer_size": 3610,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgcacheshardusers/user_resource.go",
+					"settings":
+					{
+						"buffer_size": 15512,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "bhghttphandlersshard/crafts_list_hdlr.go",
+					"file": "bhghttphandlersshard/user_secret_session_create_hdlr.go",
 					"settings":
 					{
-						"buffer_size": 3784,
+						"buffer_size": 7939,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgcacheshardusers/user_craft_legacy.go",
+					"settings":
+					{
+						"buffer_size": 413,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "bhgcachestaticsshard/resource.go",
+					"file": "bhghttphandlersshard/user_geo_objects_get_hdlr.go",
 					"settings":
 					{
-						"buffer_size": 1602,
+						"buffer_size": 3623,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "bhgcacheshardusers/craft.go",
+					"file": "bhgcacheshardusers/user_geo_object_legacy.go",
 					"settings":
 					{
-						"buffer_size": 2219,
+						"buffer_size": 3623,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "bhgmodels/user_dal.go",
+					"file": "bhgmodels/user_geo_object_crud.go",
 					"settings":
 					{
-						"buffer_size": 5324,
+						"buffer_size": 5673,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "bhghttprouteslogin/new.go",
-					"settings":
-					{
-						"buffer_size": 8680,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "bhgcacheshardusers/user_cultivation.go",
-					"settings":
-					{
-						"buffer_size": 2650,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "bhgmodels/static_resource.go",
-					"settings":
-					{
-						"buffer_size": 3532,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "bhgcachestatics/resource.go",
-					"settings":
-					{
-						"buffer_size": 6620,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "bhgcacheshardusers/user_craft.go",
-					"settings":
-					{
-						"buffer_size": 61,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "bhgcacheshardusers/user_cultivation_errors.go",
+					"file": "bhgversion/version.go",
 					"settings":
 					{
 						"buffer_size": 590,
@@ -2003,10 +2027,71 @@
 					}
 				},
 				{
-					"file": "bhgmodels/user_geo_object_crud.go",
+					"file": "bhgcacheshardusers/user_craft.go",
 					"settings":
 					{
-						"buffer_size": 3925,
+						"buffer_size": 11100,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgcacheshardusers/user_cultivation.go",
+					"settings":
+					{
+						"buffer_size": 3342,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgcacheshardusers/user_animal.go",
+					"settings":
+					{
+						"buffer_size": 2823,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgcacheshardusers/user_manufacture.go",
+					"settings":
+					{
+						"buffer_size": 3676,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhghttphandlersshard/crafts_list_hdlr.go",
+					"settings":
+					{
+						"buffer_size": 8389,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgcacheshardusers/user_resource_legacy.go",
+					"settings":
+					{
+						"buffer_size": 2809,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgmodels/user_resource_crud.go",
+					"settings":
+					{
+						"buffer_size": 3127,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgmodels/user_craft_helpers.go",
+					"settings":
+					{
+						"buffer_size": 1729,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
@@ -2014,33 +2099,36 @@
 					"file": "bhgmodels/user_craft.go",
 					"settings":
 					{
-						"buffer_size": 551,
+						"buffer_size": 993,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "bhgmodels/user_cultivation_helpers.go",
+					"contents": "package bhgmodels\n\nimport (\n\t\"github.com/armor5games/a5g/a5gdb\"\n\t\"github.com/pkg/errors\"\n\t\"gitlab.com/armor5games/bhgserver/bhgerrs\"\n)\n\nfunc UserCrudLoadLegacyCrudByUserID(\n\tdbT a5gdb.Transactioner, userID int64) (int, []*UserCraft, error) {\n\tvar errs []error\n\tlegacyUser, err := legacyUserShardSrvLoadUserByUserID(dbT, userID)\n\tif err != nil && !bhgerrs.IsByCauseDBQueryWithoutTransaction(err) {\n\t\treturn 0, nil, errors.WithStack(err)\n\t} else if bhgerrs.IsByCauseDBQueryWithoutTransaction(err) {\n\t\terrs = append(errs, err)\n\t}\n\ti := len(legacyUser.Resources)\n\tif i == 0 {\n\t\treturn i, nil, errors.WithStack(ErrUserResourceNoResourcesFound)\n\t}\n\ta := make([]*UserResource, 0, i)\n\tfor _, legacyResource := range legacyUser.Resources {\n\t\ta = append(a, &UserResource{\n\t\t\tUserID:   userID,\n\t\t\tStaticID: legacyResource.StaticID,\n\t\t\tValue:    legacyResource.Value})\n\t}\n\tif len(errs) > 0 {\n\t\treturn i, a, bhgerrs.Append(errs[0], errs[1:]...)\n\t}\n\treturn i, a, nil\n}\n",
+					"file": "bhgmodels/user_craft_crud.go",
+					"file_size": 967,
+					"file_write_time": 131716457631990639,
 					"settings":
 					{
-						"buffer_size": 1157,
+						"buffer_size": 955,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgmodels/legacy_user_shardsrv_helpers.go",
+					"settings":
+					{
+						"buffer_size": 899,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bhgmodels/legacy_user_shardsrv.go",
+					"settings":
+					{
+						"buffer_size": 1516,
 						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "bhghttphandlersshard/craft_new_hdlr.go",
-					"settings":
-					{
-						"buffer_size": 4530,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "bhgmodels/user_geo_object.go",
-					"settings":
-					{
-						"buffer_size": 1302,
 						"line_ending": "Unix"
 					}
 				}
@@ -2088,16 +2176,16 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 125.0,
-				"last_filter": "vm",
+				"height": 375.0,
+				"last_filter": "",
 				"selected_items":
 				[
 					[
-						"vm",
+						"v",
 						"View: Toggle Menu"
 					],
 					[
-						"v",
+						"vm",
 						"View: Toggle Menu"
 					],
 					[
@@ -2225,41 +2313,99 @@
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttprouteslogin",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttproutesshard",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgkv",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogin",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard"
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard"
 			],
 			"file_history":
 			[
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttpresponses/json.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_resources_get_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/craft_new_hdlr.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_resource.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1525684501_drop_create_user_craft.up.sql",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/constant_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgversion/version.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_craft.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_geo_object.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/hdlr_msg.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/hdlr_msg.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_geo_object.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_geo_object_module_helpers.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_geo_object_helpers.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_geo_object.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_geo_object_buildable.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_geo_object_buyable.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_geo_object_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticsshard/geo_object_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticslogin/geo_object_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/geo_object_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/geo_object.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/geo_object_buyable.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/statics_by_id_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttprouteslogin/new.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticsshard/default_geo_object.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/cache_repo.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_geo_object_buy.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_geo_objects_build_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_geo_object_legacy.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_geo_objects_update_legacy_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttproutesshard/new.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/crafts_list_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_manufacture.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/common_resource_diff.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticslogin/constant_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_constant_module.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_craft.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_geo_object_module_crud.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_resources_buy_by_donation_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_hearts_buy_by_donation_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_inapp_payment_google_validate_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogin/animals.json",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogin/avatarMapObjects.json",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/craft_clear_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_clear_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmongodb/mongodb.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_craft_helpers.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_resource_errors.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_resource_crud.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_resource_sell_surpluses.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_resource_helpers.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/craft.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_dal.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttpresponses/json.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_cultivation.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_resource.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/repo_db_transaction.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/resource.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_cultivation_helpers.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_cultivation_errors.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1525684501_drop_create_user_craft.down.sql",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_geo_object_helpers.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/cache_inst.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/cache_repo.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard/main.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard/main",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/static_resource.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_resource_legacy.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_secret_session_create_hdlr.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/repo_db_pools.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_manufacture_helpers.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticsshard/resource.go",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1000000000_initial_migration.up.sql",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_geo_object_crud.go",
+				"/home/mavr/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_resources_get_hdlr.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_google_payment.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_apple_payment.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_apple_payment_crud.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_apple_payment_new.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1000000000_initial_migration.up.sql",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/user_session_create_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/crafts_list_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/cache_repo.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/craft_new_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttproutesshard/new.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_resource_helpers.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_secret.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachepvpmake/meta_user.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_resource.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_resource_crud.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_geo_object_legacy.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_geo_object.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/craft.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_resource_helpers_test.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/user_cultivation_errors.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard/main.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_craft.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/mapObjects.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/statics_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttprouteslogin/new.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/mapObjects_helpers.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticslogin/mapObject.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogin/mapobjects.json",
@@ -2279,7 +2425,6 @@
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticsshard/map_objects.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticsshard/cache_repo.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticslogin/cache_repo.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/cache_repo.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard/bhgshard.toml",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogin/main.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogin/bhglogin.toml",
@@ -2297,69 +2442,12 @@
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/statics.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/build_helpers.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticslogin/build.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/statics_by_id_hdlr.go",
 				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/build.go",
 				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/Default (Linux).sublime-keymap",
 				"/home/mavr/.config/sublime-text-3/Packages/User/GoSublime/src/margo/margo.go",
 				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
-				"/home/mavr/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
 				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/resource.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard/mapObj.json",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard/mapObjects.json",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/resource.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/user.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgshard/mo.json",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestatics/mapObject.go",
-				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachelogin/statics.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachestaticsshard/build.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/cache_inst.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpsrv/logger.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhglogs/logger.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_dal.go",
-				"/home/mavr/bhg/main.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_decore.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_get_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_quest.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/data.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/user_set_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/cache_inst.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpsrv/errors.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/new.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_credential_checksum_loginsrv.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_errors.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/save_checksum_salt_for_user_secret_mw.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlers/body_checksum_required_mw.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_secret_shardsrv_crud.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttpquerystrings/keys.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachelogin/keys.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/repo.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheshardusers/quest.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgconfigs/server_type.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgconfigs/config.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/tree.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/mux.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/craft_clear_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlersshard/storage_clear_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_contest_helpers.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcachelogin/gamers.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgcacheloginusers/gamer.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhghttphandlerslogin/rating_add_rating_hdlr.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_rating_helpers.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/user_rating.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpsrv/srv_conn.go",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/_examples/rest/routes.json",
-				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/migrations/bhgshard/1519724447_fat_server.up.sql",
-				"/home/mavr/.config/sublime-text-3/Packages/GoSublime/README.md",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/rophandlersshard/user_google_payment.go",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/rophandlerslogin/vk_payments.go",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/rophandlersshard/user_apple_payment.go",
-				"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/avatar/units.go",
-				"/usr/lib/go/src/encoding/binary/binary.go",
-				"/usr/lib/go/src/go/format/format.go",
-				"/usr/lib/go/src/fmt/print.go",
-				"/usr/lib/go/src/io/ioutil/ioutil.go"
+				"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgmodels/resource.go"
 			],
 			"find":
 			{
@@ -2377,6 +2465,52 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"legacy",
+					"a",
+					"fmt",
+					"73",
+					"craftsWithNewTimer",
+					"newTimerCrafts",
+					"withOutOneCraft",
+					"time",
+					"StaticGeoObjectOption",
+					"optio",
+					"StaticGeoObjectCraft",
+					"StaticGeoObjectCrafting",
+					"GeoObjectModuleGet",
+					"StaticGeoObjectModuleLoad",
+					"StaticGeoObjectCraft",
+					"StaticGeoObjectCrafting",
+					"free",
+					"timer",
+					"time",
+					"userGeoObject",
+					"CraftsPayload",
+					"level",
+					"logrus",
+					"CommonResourceDiff",
+					"diff",
+					"new",
+					"cacheInst",
+					"desiredResources",
+					"resourceSpend",
+					"userManufactureGet",
+					"func",
+					"errResp",
+					"httpRouter",
+					"chi",
+					"httpRouter",
+					"port",
+					"prort",
+					"list",
+					"route",
+					"pool",
+					"Cultivation",
+					"userResourceGetByStaticID",
+					"userResourceGetResources",
+					"errors",
+					"3",
+					"ipc",
 					"CraftsPayload",
 					"valid",
 					"failure inapps",
@@ -2458,24 +2592,7 @@
 					"stat",
 					"update",
 					"insert",
-					"data",
-					"selec",
-					"pvp",
-					"select",
-					"route",
-					"login",
-					"/login",
-					"login",
-					"route",
-					"mode",
-					"achei",
-					"bugsnag",
-					"data",
-					"rout",
-					"tcp",
-					"first path",
-					"toml",
-					"Config"
+					"data"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2483,6 +2600,14 @@
 				"regex": false,
 				"replace_history":
 				[
+					"crafts",
+					"avatarCrafts",
+					"craftsWithNewTimer",
+					"newTimerCrafts",
+					"AvatarCraftsPayload",
+					"a5glogs",
+					"i",
+					"Manufacture"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -2493,7 +2618,7 @@
 			"groups":
 			[
 				{
-					"selected": 6,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -2502,15 +2627,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 14064,
+								"buffer_size": 15876,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										8746,
-										8746
+										5175,
+										5175
 									]
 								],
 								"settings":
@@ -2519,27 +2644,27 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 388.0,
+								"translation.y": 1649.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 12,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "bhghttphandlersshard/crafts_list_hdlr.go",
+							"file": "bhghttphandlersshard/user_resources_get_hdlr.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3784,
+								"buffer_size": 3610,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3195,
-										3195
+										3167,
+										3167
 									]
 								],
 								"settings":
@@ -2548,143 +2673,57 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 459.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 9,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "bhgcachestaticsshard/resource.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1602,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 8,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "bhgcacheshardusers/craft.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2219,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1053,
-										1053
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 10,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "bhgmodels/user_dal.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5324,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										441,
-										441
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 969.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 11,
 							"type": "text"
 						},
 						{
-							"buffer": 5,
-							"file": "bhghttprouteslogin/new.go",
+							"buffer": 2,
+							"file": "bhgcacheshardusers/user_resource.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 8680,
+								"buffer_size": 15512,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3258,
-										3258
+										2346,
+										2346
 									]
 								],
 								"settings":
 								{
+									"history_list_is_closing": true,
 									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 765.0,
+								"translation.y": 961.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 10,
 							"type": "text"
 						},
 						{
-							"buffer": 6,
-							"file": "bhgcacheshardusers/user_cultivation.go",
+							"buffer": 3,
+							"file": "bhghttphandlersshard/user_secret_session_create_hdlr.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2650,
+								"buffer_size": 7939,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1204,
-										1204
+										6711,
+										6711
 									]
 								],
 								"settings":
@@ -2693,149 +2732,27 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 100.0,
+								"translation.y": 2363.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 6,
 							"type": "text"
 						},
 						{
-							"buffer": 7,
-							"file": "bhgmodels/static_resource.go",
+							"buffer": 4,
+							"file": "bhgcacheshardusers/user_craft_legacy.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3532,
+								"buffer_size": 413,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										497,
-										517
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 13,
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "bhgcachestatics/resource.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6620,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1171,
-										1174
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 12,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 6,
-					"sheets":
-					[
-						{
-							"buffer": 9,
-							"file": "bhgcacheshardusers/user_craft.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 61,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										60,
-										60
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 16,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "bhgcacheshardusers/user_cultivation.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2650,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2301,
-										2301
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 272.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 10,
-							"file": "bhgcacheshardusers/user_cultivation_errors.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 590,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										582,
-										582
+										281,
+										321
 									]
 								],
 								"settings":
@@ -2851,20 +2768,20 @@
 							"type": "text"
 						},
 						{
-							"buffer": 11,
-							"file": "bhgmodels/user_geo_object_crud.go",
+							"buffer": 5,
+							"file": "bhghttphandlersshard/user_geo_objects_get_hdlr.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3925,
+								"buffer_size": 3623,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										504,
-										1674
+										439,
+										439
 									]
 								],
 								"settings":
@@ -2873,32 +2790,31 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 117.0,
+								"translation.y": 969.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 14,
 							"type": "text"
 						},
 						{
-							"buffer": 12,
-							"file": "bhgmodels/user_craft.go",
+							"buffer": 6,
+							"file": "bhgcacheshardusers/user_geo_object_legacy.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 551,
+								"buffer_size": 3623,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										270,
-										270
+										360,
+										360
 									]
 								],
 								"settings":
 								{
-									"history_list_is_closing": true,
 									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
 									"translate_tabs_to_spaces": false
 								},
@@ -2906,54 +2822,24 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 6,
+							"stack_index": 9,
 							"type": "text"
 						},
 						{
-							"buffer": 13,
-							"file": "bhgmodels/user_cultivation_helpers.go",
+							"buffer": 7,
+							"file": "bhgmodels/user_geo_object_crud.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1157,
+								"buffer_size": 5673,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										706,
-										721
-									]
-								],
-								"settings":
-								{
-									"history_list_is_closing": true,
-									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 34.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 14,
-							"file": "bhghttphandlersshard/craft_new_hdlr.go",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 4530,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3260,
-										3551
+										366,
+										366
 									]
 								],
 								"settings":
@@ -2962,27 +2848,27 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 1351.0,
+								"translation.y": 918.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 13,
 							"type": "text"
 						},
 						{
-							"buffer": 15,
-							"file": "bhgmodels/user_geo_object.go",
+							"buffer": 8,
+							"file": "bhgversion/version.go",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1302,
+								"buffer_size": 590,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										159,
+										159
 									]
 								],
 								"settings":
@@ -2995,6 +2881,455 @@
 								"zoom_level": 1.0
 							},
 							"stack_index": 15,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "bhgcacheshardusers/user_craft.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11100,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2153,
+										2153
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 918.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 17,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "bhgcacheshardusers/user_cultivation.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3342,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1457,
+										1457
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 918.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 19,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "bhgcacheshardusers/user_animal.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2823,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1732,
+										1732
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 187.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 16,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "bhgcacheshardusers/user_manufacture.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3676,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2267,
+										2133
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 961.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 18,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 10,
+					"sheets":
+					[
+						{
+							"buffer": 13,
+							"file": "bhghttphandlersshard/crafts_list_hdlr.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8389,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7152,
+										7152
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3228.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 21,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "bhgcacheshardusers/user_craft.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11100,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1885,
+										1885
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 916.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 20,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "bhgcacheshardusers/user_cultivation.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3342,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2780,
+										2780
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1122.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "bhgcacheshardusers/user_resource_legacy.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2809,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2070,
+										2070
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 695.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "bhgmodels/user_resource_crud.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3127,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										353,
+										353
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"file": "bhgmodels/user_craft_helpers.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1729,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										943,
+										943
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 323.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 23,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "bhgcacheshardusers/user_resource.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 15512,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9803,
+										9803
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 4709.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 22,
+							"type": "text"
+						},
+						{
+							"buffer": 17,
+							"file": "bhgmodels/user_craft.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 993,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										422,
+										401
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 18,
+							"file": "bhgmodels/user_craft_crud.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 955,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										298,
+										298
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 19,
+							"file": "bhgmodels/legacy_user_shardsrv_helpers.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 899,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										658,
+										658
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 20,
+							"file": "bhgmodels/legacy_user_shardsrv.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1516,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										432,
+										432
+									]
+								],
+								"settings":
+								{
+									"spell_check": false,
+									"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -3028,7 +3363,7 @@
 				"cols":
 				[
 					0.0,
-					0.5,
+					0.523612735543,
 					1.0
 				],
 				"rows":
@@ -3091,7 +3426,7 @@
 				"height": 108.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,23,1920,1080,1920,1080",
+			"position": "0,0,0,0,0,0,40,1920,1080,1920,1080",
 			"project": "bhgserver.sublime-project",
 			"replace":
 			{
@@ -3104,6 +3439,182 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"user_resource_lega",
+						"bhgcacheshardusers/user_resource_legacy.go"
+					],
+					[
+						"user_secret_se",
+						"bhghttphandlersshard/user_secret_session_create_hdlr.go"
+					],
+					[
+						"new",
+						"bhghttproutesshard/new.go"
+					],
+					[
+						"",
+						"bhghttproutesshard/new.go"
+					],
+					[
+						"vers",
+						"bhgversion/version.go"
+					],
+					[
+						"ver",
+						"bhgversion/version.go"
+					],
+					[
+						"n",
+						"bhghttproutesshard/new.go"
+					],
+					[
+						"const",
+						"bhgcachestatics/constant_module.go"
+					],
+					[
+						"ne",
+						"bhghttproutesshard/new.go"
+					],
+					[
+						"user_craft",
+						"bhgcacheshardusers/user_craft.go"
+					],
+					[
+						"static_geo_object_mod",
+						"bhgmodels/static_geo_object_module.go"
+					],
+					[
+						"static_geo_object_helpers",
+						"bhgmodels/static_geo_object_module_helpers.go"
+					],
+					[
+						"geo_obje",
+						"bhgcachestaticslogin/geo_object_module.go"
+					],
+					[
+						"geo_objec",
+						"bhgcachestatics/geo_object_module.go"
+					],
+					[
+						"static_geo_object_c",
+						"bhgmodels/static_geo_object_module_crud.go"
+					],
+					[
+						"geo",
+						"bhgcachestatics/geo_object_module.go"
+					],
+					[
+						"staticgeo",
+						"bhgmodels/static_geo_object_module.go"
+					],
+					[
+						"map",
+						"bhglogin/avatarMapObjects.json"
+					],
+					[
+						"an",
+						"bhglogin/animals.json"
+					],
+					[
+						"craft_l",
+						"bhghttphandlersshard/crafts_list_hdlr.go"
+					],
+					[
+						"craft_c",
+						"bhghttphandlersshard/craft_clear_hdlr.go"
+					],
+					[
+						"user_res",
+						"bhgcacheshardusers/user_resource.go"
+					],
+					[
+						"user_cra",
+						"bhgcacheshardusers/user_craft.go"
+					],
+					[
+						"mon",
+						"bhgmongodb/mongodb.go"
+					],
+					[
+						"user_cle",
+						"bhghttphandlersshard/user_clear_hdlr.go"
+					],
+					[
+						"user_cl",
+						"bhghttphandlersshard/user_clear_hdlr.go"
+					],
+					[
+						"craft_cl",
+						"bhghttphandlersshard/craft_clear_hdlr.go"
+					],
+					[
+						"user_manu",
+						"bhgcacheshardusers/user_manufacture.go"
+					],
+					[
+						"user_geo_object_l",
+						"bhgcacheshardusers/user_geo_object_legacy.go"
+					],
+					[
+						"user_g",
+						"bhgcacheshardusers/user_geo_object.go"
+					],
+					[
+						"cache_repo",
+						"bhgcacheshardusers/cache_repo.go"
+					],
+					[
+						"list",
+						"bhghttphandlersshard/crafts_list_hdlr.go"
+					],
+					[
+						"craft",
+						"bhghttphandlersshard/craft_new_hdlr.go"
+					],
+					[
+						"user_man",
+						"bhgcacheshardusers/user_manufacture.go"
+					],
+					[
+						"main",
+						"bhgshard/main.go"
+					],
+					[
+						"user_session_",
+						"bhghttphandlersshard/user_secret_session_create_hdlr.go"
+					],
+					[
+						"user_resource",
+						"bhgcacheshardusers/user_resource_legacy.go"
+					],
+					[
+						"user_craf",
+						"bhgcacheshardusers/user_craft.go"
+					],
+					[
+						"cultiva",
+						"bhgmodels/user_cultivation_helpers.go"
+					],
+					[
+						"user_cu",
+						"bhgmodels/user_cultivation_helpers.go"
+					],
+					[
+						"route",
+						"bhghttproutesshard/new.go"
+					],
+					[
+						"user_cul",
+						"bhgcacheshardusers/user_cultivation.go"
+					],
+					[
+						"cultiv",
+						"bhgmodels/user_cultivation_helpers.go"
+					],
+					[
+						"resou",
+						"bhgcacheshardusers/user_resource.go"
+					],
 					[
 						"paym",
 						"bhgcacheshardusers/user_apple_payment.go"
@@ -3121,24 +3632,12 @@
 						"bhgcachestaticsshard/resource.go"
 					],
 					[
-						"route",
-						"bhghttproutesshard/new.go"
-					],
-					[
 						"user_cult",
 						"bhgcacheshardusers/user_cultivation_errors.go"
 					],
 					[
-						"resou",
-						"bhgcachestatics/resource.go"
-					],
-					[
 						"static_re",
 						"bhgmodels/static_resource.go"
-					],
-					[
-						"",
-						"bhgmodels/user_craft.go"
 					],
 					[
 						"user_resource_c",
@@ -3153,28 +3652,12 @@
 						"bhgmodels/user_resource_helpers_test.go"
 					],
 					[
-						"user_res",
-						"bhgmodels/user_resource_helpers.go"
-					],
-					[
-						"user_craft",
-						"bhgmodels/user_craft.go"
-					],
-					[
-						"craft",
-						"bhghttphandlersshard/craft_new_hdlr.go"
-					],
-					[
 						"craf",
 						"bhgcacheshardusers/craft.go"
 					],
 					[
 						"cra",
 						"bhghttphandlersshard/craft_new_hdlr.go"
-					],
-					[
-						"main",
-						"bhgshard/main.go"
 					],
 					[
 						"bhglo",
@@ -3191,10 +3674,6 @@
 					[
 						"bhgl",
 						"bhglogin/bhglogin.toml"
-					],
-					[
-						"map",
-						"bhgmodels/mapObjects.go"
 					],
 					[
 						"cache",
@@ -3239,10 +3718,6 @@
 					[
 						"mapo",
 						"bhgcachestaticslogin/mapObject.go"
-					],
-					[
-						"cache_repo",
-						"bhgcachestatics/cache_repo.go"
 					],
 					[
 						"m",
@@ -3341,10 +3816,6 @@
 						"bhgmodels/user_resource.go"
 					],
 					[
-						"user_resource",
-						"bhghttphandlersshard/user_resource.go"
-					],
-					[
 						"bhglogs/log",
 						"bhglogs/logger.go"
 					],
@@ -3373,16 +3844,8 @@
 						"bhgcacheshard/login_server.go"
 					],
 					[
-						"vers",
-						"ropversion/version.go"
-					],
-					[
 						"cac",
 						"avatar/cache_data.go"
-					],
-					[
-						"ver",
-						"ropversion/version.go"
 					],
 					[
 						"vk",
@@ -3495,7 +3958,7 @@
 				[
 					[
 						"",
-						"~/Code/web/evotor-gulp/app/js/react-fire.sublime-project"
+						"~/Code/go/src/github.com/mavr/leaderboard/leaderboard/mavr.sublime-project"
 					]
 				],
 				"width": 380.0
@@ -3509,7 +3972,7 @@
 				],
 				"width": 378.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
 			},
@@ -3522,7 +3985,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 118,
+			"window_id": 124,
 			"workspace_name": "/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgserver.sublime-workspace"
 		}
 	],
@@ -3531,12 +3994,12 @@
 		"recent_workspaces":
 		[
 			"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/bhgserver.sublime-workspace",
+			"/home/mavr/Code/go/src/github.com/mavr/simpleserver/dragon.sublime-workspace",
+			"/home/mavr/Code/go/src/github.com/mavr/leaderboard/leaderboard/mavr.sublime-workspace",
 			"/home/mavr/Code/web/evotor-gulp/app/js/react-fire.sublime-workspace",
 			"/home/mavr/Code/web/evotor-gulp/app/evotor.sublime-workspace",
-			"/home/mavr/Code/go/src/github.com/mavr/simpleserver/dragon.sublime-workspace",
 			"/home/mavr/Code/web/dropcard-website/src/app/pages/company/evotor-web.sublime-workspace",
 			"/home/mavr/Code/go/src/github.com/mavr/leetcode/xmaschain.sublime-workspace",
-			"/home/mavr/Code/go/src/github.com/mavr/leaderboard/leaderboard/mavr.sublime-workspace",
 			"/home/mavr/Code/go/src/bitbucket.org/armor5games/ropserver/ropserver.sublime-workspace",
 			"/home/mavr/Code/go/src/gitlab.com/armor5games/bhgserver/a5gtcpmux/leaderboard.sublime-workspace",
 			"/source/go/src/github.com/mavr/demo-server/demo-server.sublime-workspace"

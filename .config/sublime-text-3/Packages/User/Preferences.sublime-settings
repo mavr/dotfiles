@@ -7,7 +7,7 @@
 		"node_modules"
 	],
 	"font_face": "Deja Vu Sans Mono",
-	"font_size": 10,
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Vintage"
