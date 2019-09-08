@@ -1,11 +1,16 @@
 export EDITOR=vim
-export GOPATH=$HOME/Code/go
+export GOPATH=$HOME/Code/go:$PATH/Code/go/src/git-dev.2devv.com/decenturion/dc-api/go
 export PATH=$PATH:$GOPATH/bin
 
 export HISTTIMEFORMAT="%h %d %H:%M:%S "
 export HISTSIZE=10000
 export PROMPT_COMMAND='history -a'
+#export GLOBIGNORE='.'
 export HISTIGNORE="ls:ps:history:top:htop"
+
+#export ANDROID_SDK=/opt/android-sdk
+export ANDROID_SDK_ROOT=~/Android/Sdk
+export ANDROID_NDK=/opt/android-ndk/android-ndk-r10e
 
 # enable bash completion in interactive shells
 if [ -f /etc/bash_completion ]; then
